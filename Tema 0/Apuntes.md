@@ -1,6 +1,6 @@
-# 20/09/2018
+## 20/09/2018
 
-## Pasos de creación de una web
+# Pasos de creación de una web
 
 1. Briefing: 
 

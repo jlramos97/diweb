@@ -7,6 +7,13 @@ div {
     box-sizing: border-box;
 }
 
+section {
+    position: relative;
+    height: 600px;
+    width: 100%;
+    background-color:teal;
+}
+
 .wrapper {
     width: 955px;
     height: 100%;
@@ -19,6 +26,13 @@ header {
     height: 120px;
     background-color: tomato;
     position: relative;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background-color: royalblue;
 }
 
 .logo {
@@ -55,7 +69,152 @@ li {
     position: relative; 
     top: 5px;
     right: 15px;
+    text-align: center;
+    font-family: Arial;
+    color: black;
+    line-height: 40px;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
 
+.mainpic {
+    z-index: 0;
+    background-color: indianred;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0;
+}
 
+.legend {
+    z-index: 10;
+    background-color: purple;
+    position: absolute;
+    height: 100%;
+    width: 300px;
+    top: 0;
+    left: 100px;
+}
+
+.caja1{
+    position: absolute;
+    width: 49%;
+    height: 49%;
+    background-color: salmon;
+    top: 1%;
+    left: 1%;
+}
+
+.caja2{
+    position: absolute;
+    width: 49%;
+    height: 49%;
+    background-color: saddlebrown;
+    bottom: 1%;
+    left: 1%;
+}
+
+.caja3{
+    position: absolute;
+    width: 49%;
+    height: 49%;
+    background-color: chocolate;
+    top: 1%;
+    right: 1%;
+}
+
+.caja4{
+    position: absolute;
+    width: 49%;
+    height: 49%;
+    background-color: darkgoldenrod;
+    bottom: 1%;
+    right: 1%;
+}
+
+.caja5 {
+    position: absolute;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    top: 175px;
+    left: 352.5px;
+    background-color: black;
+}
+
+.section4 {
+    background-color: brown;
+}
+
+.pic {
+    position: absolute;
+    height: 100%;
+    width: 350px;
+    background-color: azure;
+}
+
+.text1 {
+    position: absolute;
+    background-color: chocolate;
+    width: 605px;
+    height: 45%;
+    right: 0;
+    top: 5%;
+}
+
+.text2 {
+    position: absolute;
+    background-color: burlywood;
+    width: 605px;
+    height: 45%;
+    right: 0;
+    bottom: 5%;
+}
+
+.box1 {
+    position: absolute;
+    width: 30%;
+    height: 95%;
+    background-color: aqua;
+    top: 0;
+    left: 5%;
+}
+
+.box1 {
+    position: absolute;
+    width: 30%;
+    height: 87%;
+    background-color: aqua;
+    top: 0;
+    left: 5%;
+}
+
+.box2 {
+    position: absolute;
+    width: 30%;
+    height: 87%;
+    background-color: darkcyan;
+    top: 0;
+    left: 35%;
+}
+
+.box3 {
+    position: absolute;
+    width: 30%;
+    height: 87%;
+    background-color: rgb(87, 204, 204);
+    top: 0;
+    left: 65%;
+}
+
+.strip {
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    background-color: black;
+    bottom: 0;
+}
