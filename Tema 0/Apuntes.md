@@ -89,7 +89,15 @@ Arriba se puede modificar su posición, ya sea X o Y, **igual** que para ajustar
 - Seleccionamos el rectángulo
 - Efecto -> Estilizar -> Sombra paralela...
 
+### 26/09/2018
 
+## Importante
+
+Como distorsionemos una foto/gráfico nos ejecuta **en el momento.**
+
+O nos vamos al photoshop y la recortamos o le hacemos una máscara
+
+Si maquetamos esta web en responsive a final de trimestre nos sube dos puntos.
 
 
 
