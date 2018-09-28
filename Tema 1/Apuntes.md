@@ -89,5 +89,3 @@ Copiamos el código interior de ```<style>``` y lo metemos dentro del archivo ``
 Si queremos descargar, pulsamos el botón de descarga dentro del desplegable y descargaremos un ```.zip``` con todos los tipos de fuente. 
 
 No es recomendable por ahora porque no sabemos ligar la fuente con la página aún.
-
-    
