@@ -1,0 +1,39 @@
+body {
+    background-color: #DCDBD9;
+    color: #2C2C2C;
+    font: normal 100% Cambria, Georgia, serif;
+}
+
+/* font es un shorthand de: 
+    - font-weight
+    - font size
+    - font-family
+
+   formula de fluid typography
+    target / context = result
+
+    target -> fuente que queremos
+    context -> fuente contenedor
+
+    24(h1)/16(fontsize del navegador) = 1.5
+
+    el fontsize del h1 tiene que ser 1.5em
+
+    Hay mala costumbre de modificar el tamaño predeterminado de la fuente del navegador
+    en la etiqueta html
+*/
+h1 {
+    /* font-size: 24px; */
+    font-size: 1.5em; /* 24px / 16px (16px es la por defecto) */
+    font-style: italic;
+    font-weight: normal;
+}
+
+h1 a {
+    color: #747474;
+    font: bold 0.4583333333em Calibri, Optima, Arial, sans-serif; /* 11px / 24px da 0.4833333333333 asi que 0.45 em*/
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
