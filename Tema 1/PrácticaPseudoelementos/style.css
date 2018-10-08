@@ -1,0 +1,42 @@
+/* Práctica Pseudoelementos */
+@import url('https://fonts.googleapis.com/css?family=Bigelow+Rules');
+@import url('https://fonts.googleapis.com/css?family=MedievalSharp');
+
+#texto {
+    width: 500px;
+    position: relative;
+    top: 200px;
+    left: 250px;
+}
+
+#texto {
+    font-size: 40px;
+    font-family: 'Bigelow Rules', cursive;
+    text-align: center;
+}
+
+#texto::before {
+    content: "\"";
+    font-size: 120px;
+    font-family: 'MedievalSharp', cursive;
+    position: absolute;
+    left: -50px;
+    top: -20px;
+}
+
+#texto::after {
+    content: "\"";
+    font-size: 120px;
+    font-family: 'MedievalSharp', cursive;
+    position: absolute;
+    right: -50px;
+    top: -20px;
+}
+
+p::first-letter {
+    font-size: 80px;
+    font-family: 'MedievalSharp', cursive;
+}
+
+
+
