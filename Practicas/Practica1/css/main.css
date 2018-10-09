@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Niramit');
 /* @import url('https://fonts.googleapis.com/css?family=Niramit:400igit '); */
 
+/*MAIN*/
 body {
     background-color: #F9F7EE;
     margin: 0;
@@ -9,12 +10,13 @@ body {
     overflow-x: hidden;
 }
 
+/*HEADER*/
 header {
     width: 100%;
     height: 60px;
     background: white;
     position: fixed;
-    top: 30px;
+    top: 10px;
     z-index: 10;
 }
 
@@ -66,14 +68,11 @@ a {
     font-family: 'Niramit', sans-serif;
 }
 
-p {
-    font-family: 'Niramit', sans-serif;
-}
-
 a:active {
     text-decoration: underline;
 }
 
+/*SECCION MAIN*/
 #main {
     position: relative;
     width: 100%;
@@ -82,49 +81,78 @@ a:active {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left 70%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+#scrollbar {
+    width: 100%;
+    position: absolute;
+    height: 7.69vh;
+    background: rgba(255,255,255,0.7);
+    bottom: 0;
+}
+
+#scroll-down {
+    position: absolute;
+    top: -4vh;
+    left: 47%;
+    height: 13.07vh;
+    z-index: 5;
+}
+
+/*SECCION RESTAURANTE*/
 #restaurante {
     position: relative;
     width: 100%;
 }
 
+h1 {
+    font-family: 'Niramit', sans-serif;
+    font-size: 1.8vw;
+    margin: 0;
+    padding: 0;
+}
+
 #tituloRest {
     position: relative;
     left: 8.88vw;
+    top: 3vh;
 }
 
-#tituloRest h1 {
+p {
     font-family: 'Niramit', sans-serif;
-    font-size: 1.8vw;
 }
 
 #rest1 {
     position: relative;
     width: 19vw;
     left: 8.88vw;
-    top: 1.38vh
+    top: 4.38vh
 }
 
 #rest2 {
     position: relative;
     left: 9.8vw;
     width: 19vw;
-    top: 1.38vh
+    top: 4.38vh
 }
 
 #rest3 {
     position: relative;
     left: 8.8vw;
     width: 19vw;
-    top: 3.38vh;
+    top: 7.38vh;
 }
 
 #rest4 {
     position: relative;
     left: 9.8vw;
     width: 19vw;
-    top: 3.38vh;
+    top: 7.38vh;
 }
 
 #parrafo1Rest {
@@ -133,9 +161,59 @@ a:active {
     top: 20.79vh;
     left: 59.12vw;
     height: 20%;
-    width: 25%;
+    width: 20%;
     overflow-wrap: break-word;
     font-family: 'Niramit', sans-serif;
     font-style: italic;
 }
 
+#parrafo2Rest {
+    position: absolute;
+    right: 10px;
+    bottom: 0vh;
+    left: 59.12vw;
+    height: 20%;
+    width: 20%;
+    overflow-wrap: break-word;
+    font-family: 'Niramit', sans-serif;
+    font-style: italic;
+}
+
+
+/*LATERAL DE RESTAURANTE*/
+
+#letras {
+    position: absolute;
+    width: 5.63vw;
+    height: 90vh;
+    right: 5.63vw;
+    top: 0;
+    background-color: #CDB79E;
+}
+
+.sidepane {
+    background: none;
+    border-style: solid;
+    border-width: 2px;
+    border-bottom: none;
+    position: absolute;
+    width: 5.63vw;
+    height: 22.5vh;
+    right: 0;
+}
+
+#sidepane1 {
+    top: 0;
+}
+
+#sidepane2 {
+    top: 22.5vh;
+}
+
+#sidepane3 {
+    top: 45vh,
+}
+
+#sidepane4 {
+    top: 67.5vh;    
+}
