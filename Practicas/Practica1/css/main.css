@@ -185,7 +185,7 @@ p {
 #letras {
     position: absolute;
     width: 5.63vw;
-    height: 90vh;
+    height: 90.4vh;
     right: 5.63vw;
     top: 0;
     background-color: #CDB79E;
@@ -194,16 +194,18 @@ p {
 .sidepane {
     background: none;
     border-style: solid;
-    border-width: 2px;
+    border-width: 3px;
     border-bottom: none;
+    border-right: none;
     position: absolute;
-    width: 5.63vw;
+    width: 5.5vw;
     height: 22.5vh;
     right: 0;
 }
 
 #sidepane1 {
     top: 0;
+    border-top: none;
 }
 
 #sidepane2 {
@@ -211,9 +213,23 @@ p {
 }
 
 #sidepane3 {
-    top: 45vh,
+    top: 45vh;
 }
 
 #sidepane4 {
     top: 67.5vh;    
 }
+
+/*SECCION CHEF*/
+
+#chef {
+    position: relative;
+    width: 100%;
+}
+
+#origami {
+    position: relative;
+    top: 66px;
+    left: -40px;
+}
+
