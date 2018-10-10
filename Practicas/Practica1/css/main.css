@@ -347,42 +347,83 @@ p {
 
 #comida1 {
     left: 3vw;
+    display: block;
 }
 
 #comida2 {
     left: 26vw;
+
 }
 
 #comida3 {
     right: 26vw;
+
 }
 
 #comida4 {
     right: 3vw;
-}
 
-#comida1:hover {
-    filter: blur(5px);
 }
 
 #parrafo1Comida {
+    top: 34vw;
     left: 3vw;
     text-align: center;
-    color: white;
+    color:white;
+    font-weight: bold;
+    pointer-events: none;
+    display: none;
 }
 
 #parrafo2Comida {
+    top: 34vw;
     left: 26vw;
     text-align: center;
+    color: white;
+    font-weight: bold;
+    pointer-events: none;
+    display: none;
 }
 
 #parrafo3Comida {
+    top: 34vw;
     right: 26vw;
     text-align: center;
+    color: white;
+    font-weight: bold;
+    pointer-events: none;
+    display: none;
 }
 
 #parrafo4Comida {
+    top: 34vw;
     right: 3vw;
     text-align: center;
+    color: white;
+    font-weight: bold;
+    pointer-events: none;
+    display: none;
 }
+
+.fotoComida:hover{
+    filter: brightness(50%);
+}
+
+#comida1:hover~#parrafo1Comida {
+    display: block;
+}
+
+#comida2:hover~#parrafo2Comida {
+    display: block;
+}
+
+#comida3:hover~#parrafo3Comida {
+    display: block;
+}
+
+#comida4:hover~#parrafo4Comida {
+    display: block;
+}
+
+
 
