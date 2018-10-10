@@ -2,15 +2,22 @@
 @import url('https://fonts.googleapis.com/css?family=Niramit');
 /* @import url('https://fonts.googleapis.com/css?family=Niramit:400igit '); */
 
-/*MAIN*/
+/*---------------MAIN---------------*/
 body {
+    position: relative;
     background-color: #F9F7EE;
     margin: 0;
     width: 100%;
     overflow-x: hidden;
 }
 
-/*HEADER*/
+#wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/*---------------HEADER---------------*/
 header {
     width: 100%;
     height: 60px;
@@ -72,7 +79,7 @@ a:active {
     text-decoration: underline;
 }
 
-/*SECCION MAIN*/
+/*---------------SECCION MAIN---------------*/
 #main {
     position: relative;
     width: 100%;
@@ -104,7 +111,7 @@ a:active {
     z-index: 5;
 }
 
-/*SECCION RESTAURANTE*/
+/*---------------SECCION RESTAURANTE---------------*/
 #restaurante {
     position: relative;
     margin: 0;
@@ -183,7 +190,7 @@ p {
 }
 
 
-/*LATERAL DE RESTAURANTE*/
+/*---------------LATERAL DE RESTAURANTE---------------*/
 
 #sidebar {
     position: absolute;
@@ -235,12 +242,12 @@ p {
     border-bottom: solid;
 }
 
-/*SECCION CHEF*/
+/*---------------SECCION CHEF---------------*/
 
 #chef {
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 85vw;
 }
 
 #origami {
@@ -306,5 +313,76 @@ p {
     width: 32%;
     top: 33.625vw;
     right: 13vw;
+}
+
+/*---------------SECCION ESPECIALIDADES---------------*/
+
+#carta {
+    position: relative;
+    width: 100%;
+    height: 65vw;
+    top: 0;
+    left: 0;
+}
+
+#tituloCarta {
+    position: absolute;
+    top: 0;
+    right: 20vw;
+    z-index: 4;
+}
+
+#logoCarta {
+    position: absolute;
+    top: -1.5vw;
+    right: 3vw;
+    width: 31.25vw;
+}
+
+.fotoComida, .parrafoComida {
+    position: absolute;
+    width: 400px;
+    top: 30vw;
+}
+
+#comida1 {
+    left: 3vw;
+}
+
+#comida2 {
+    left: 26vw;
+}
+
+#comida3 {
+    right: 26vw;
+}
+
+#comida4 {
+    right: 3vw;
+}
+
+#comida1:hover {
+    filter: blur(5px);
+}
+
+#parrafo1Comida {
+    left: 3vw;
+    text-align: center;
+    color: white;
+}
+
+#parrafo2Comida {
+    left: 26vw;
+    text-align: center;
+}
+
+#parrafo3Comida {
+    right: 26vw;
+    text-align: center;
+}
+
+#parrafo4Comida {
+    right: 3vw;
+    text-align: center;
 }
 
