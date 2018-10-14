@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Yakitoro by Chicote</title>
     <link rel="stylesheet" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/script.js" defer></script>
 </head>
 <body>
@@ -106,8 +107,7 @@
                 En definitiva, una forma de comer de tapas 
                 con todo bien ensartado, 
                 aromas a brasas y sabores nuestros. 
-                Yakitoro es el nombre que damos a nues
-                tra brocheta. 
+                Yakitoro es el nombre que damos a nuestra brocheta. 
                 Nuestra carta se basa en Yakitoros que 
                 combinan diferentes ingredientes.
                 Encontrarás Yakitoros De La Tierra, Del 
@@ -141,28 +141,39 @@
                 patatas guisadas al ajillo.
             </p>
         </section>
-<!-- 
+
         <section id="contacto">
             <h1 id="tituloContacto">SOLICITA INFORMACIÓN PARA RESERVAR</h1>
             <div id="contenedorInfo">
-                <img src="img/edificio.jpg" alt="" id="imagenEdificio"> <span>C/ Reina, 41 28004 Madrid</span>
-                <img src="img/ubicacion.png" alt="" id="iconoUbi"> <span>+34 91 737 14 41</span>
-                <img src="img/telefono.png" alt="" id="iconoTLF"> <span>info@yakitoro.com</span>
-                <img src="img/mail.png" alt="" id="iconoMail">
+                <img src="img/edificio.jpg" alt="" id="imagenEdificio"> 
+
+                <div id="textoContacto">
+                    <img src="img/ubicacion.png" alt="" id="iconoUbi"> 
+                    <span class="spanContacto">C/ Reina, 41 <br></span>
+                    <span class="spanContacto">28004 Madrid</span> <br> <br>
+                    
+                    <img src="img/phone.png" alt="" id="iconoTLF"> 
+                    <span class="spanContacto">+34 91 737 14 41</span> <br><br>
+                    
+                    <img src="img/mail.png" alt="" id="iconoMail"> 
+                    <span class="spanContacto">info@yakitoro.com</span><br>
+                </div>
             </div>
 
-            <form action="#">
+            <form action="#" id="formulario">
                 <input type="text" name="nombre" id="nombre" placeholder="Nombre">
                 <input type="tel" name="telefono" id="telefono" placeholder="Teléfono">
                 <input type="date" name="fecha" id="fecha" placeholder="Escoja una fecha...">
                 <input type="text" name="area" id="area">
 
-                <button type="submit">ENVIAR</button>
+                <input type="submit" value="ENVIAR" id="botonEnviar">
             </form>
 
-            <div id="maps"></div>
+            <div id="maps">
+                <img src="" alt="">
+            </div>
         </section>
--->
+
         <footer>
             <span id="design">Diseño por jlramos DAW © 2018</span> 
 
