@@ -1,0 +1,91 @@
+body {
+    background: #5a5a5a;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#wrapper {
+    /* position: absolute; */
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.caja {
+    width: 26.666vw;
+    height: 26.666vw;
+}
+
+#caja1 {
+    position: absolute;
+    background: tomato;
+    left: 0;
+    top: 0;
+}
+
+#caja2 {
+    background: steelblue;
+    position: absolute;
+    left: 26.666vw;
+    top: 0;
+}
+
+#caja3 {
+    background: tomato;
+    position: absolute;
+    left: 53.332vw;
+    top: 0;
+}
+
+#caja4 {
+    background: steelblue;
+    position: absolute;
+    left: 0vw;
+    top: 26.666vw;
+}
+
+#caja5 {
+    background: tomato;
+    position: absolute;
+    left: 26.666vw;
+    top: 26.666vw;
+}
+
+#caja6 {
+    background: steelblue;
+    position: absolute;
+    left: 53.332vw;
+    top: 26.666vw;
+}
+
+#caja7 {
+    background: tomato;
+    position: absolute;
+    left: 0vw;
+    top: 53.223vw;
+}
+
+#caja8 {
+    background: steelblue;
+    position: absolute;
+    left: 26.666vw;
+    top: 53.223vw;
+}
+
+#caja9 {
+    background: tomato;
+    position: absolute;
+    left: 53.223vw;;
+    top: 53.223vw;;
+}
+
+#cajacentro {
+    background-color: tomato;
+    width: 50%;
+}
+
+#cajacentro::after {
+    content: "";
+    padding-bottom: 100%;
+    display: block;
+}
