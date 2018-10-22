@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,400,500|Roboto+Slab');
+/*font-family: 'Roboto Slab', serif;*/
+/*font-family: 'Montserrat', sans-serif;*/
+
+html, body {
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+}
+
+#mainSection {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+
+}
+
+/* HEADER */
+
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 150px;
+    z-index: 10;
+}
+
+#logo {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    width: 120px;
+    height: 120px;
+    background-image: url(../img/logo.svg);
+    background-position: 0 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#topMenu {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    /* margin: 10px auto; */
+}
+
+li {
+    display: inline-block;
+}
+
+.topElement {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 2.4em;
+    padding-right: 50px;
+}
+
+.menuSelected {
+    text-decoration: line-through;
+}
+
+/* MAIN */
+
+#main {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/fondoMain.jpg);
+    width: 100%;
+    height: 100%;
+}
+
+.h1Thin {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 6em;
+}
