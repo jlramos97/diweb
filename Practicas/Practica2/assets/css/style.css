@@ -2,16 +2,24 @@
 /*font-family: 'Roboto Slab', serif;*/
 /*font-family: 'Montserrat', sans-serif;*/
 
-html, body {
-    font-size: 62.5%;
+*{
     margin: 0;
     padding: 0;
+}
+
+body {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    font-size: 62.5%;
+    overflow-x: hidden;
 }
 
 #mainSection {
     position: relative;
     width: 100%;
-    height: 90vh;
+    height: 100vh;
 
 }
 
@@ -27,8 +35,8 @@ header {
 
 #logo {
     position: absolute;
-    left: 20px;
-    top: 10px;
+    left: 40px;
+    top: 30px;
     width: 120px;
     height: 120px;
     background-image: url(../img/logo.svg);
@@ -46,7 +54,7 @@ a {
     position: absolute;
     text-align: center;
     width: 100%;
-    /* margin: 10px auto; */
+    padding: 25px;
 }
 
 li {
@@ -56,8 +64,9 @@ li {
 .topElement {
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
-    font-size: 2.4em;
+    font-size: 3.4em;
     padding-right: 50px;
+    text-align: center;
 }
 
 .menuSelected {
@@ -73,12 +82,90 @@ li {
     margin: 0;
     padding: 0;
     background-image: url(../img/fondoMain.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
-    height: 100%;
+    height: 60vw;
 }
 
 .h1Thin {
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
-    font-size: 6em;
+    font-size: 8em;
 }
+
+#tituloMain  {
+    position: absolute;
+    bottom: 10px;
+    left: 150px;
+}
+
+
+/*SECTION WELCOME*/
+
+#welcome {
+    position: relative;
+    top: 8.35vw;
+    left: 0;
+    width: 100%;
+    height: 40vw;
+}
+
+#raro {
+    position: relative;
+    width: 550px;
+    height: 30%;
+    top: 0;
+    left: 155px;
+    border-top-style: solid;
+}
+
+.h3Thin {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 3.5em;
+}
+
+#h3Estudio {
+    position: absolute;
+    top: 0;
+    left: 140px;
+}
+
+#textoWelcome {
+    position: absolute;
+    right: 0;
+    top: 150px;
+    width: 35%;
+    height: 30%;;
+}
+
+.h1Fancy {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+    color: #787FA0;
+    font-size: 8em;
+}
+
+#h1Bienvenido {
+    position: absolute;
+    top: 230px;
+    right: 400px;
+
+}
+
+p {
+    font-size: 1.9em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+} 
+
+#pWelcome {
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    top: 380px;
+    right: 300px;
+}
+
+
