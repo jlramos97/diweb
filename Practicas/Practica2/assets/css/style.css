@@ -23,7 +23,7 @@ body {
 
 }
 
-/* HEADER */
+/*----------HEADER----------*/
 
 header {
     position: absolute;
@@ -101,7 +101,7 @@ li {
 }
 
 
-/*SECTION WELCOME*/
+/*----------SECTION WELCOME----------*/
 
 #welcome {
     position: relative;
@@ -115,8 +115,8 @@ li {
     position: relative;
     width: 550px;
     height: 30%;
-    top: 0;
-    left: 155px;
+    top: 0vw;
+    left: 8.07vw;
     border-top-style: solid;
 }
 
@@ -144,7 +144,7 @@ li {
     font-family: 'Roboto Slab', serif;
     font-weight: 100;
     color: #787FA0;
-    font-size: 8em;
+    font-size: 7em;
 }
 
 #h1Bienvenido {
@@ -154,8 +154,19 @@ li {
 
 }
 
+#h1Bienvenido::before {
+    content: "-";
+    font-size: 95px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color: black;
+    position: absolute;
+    left: -50px;
+    top: -20px;
+}
+
 p {
-    font-size: 1.9em;
+    font-size: 1.6em;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 } 
@@ -164,8 +175,87 @@ p {
     position: absolute;
     width: 100%;
     height: 30%;
-    top: 380px;
-    right: 300px;
+    top: 350px;
+    right: 200px;
+}
+
+/*----------SECTION ABOUT US----------*/
+
+#aboutUs {
+    position: relative;
+    top: 25vw;
+    left: 0;
+}
+
+#imgAboutUs {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(../img/BannerMain.jpg);
+    background-size: contain;
+    width: 100%;
+    height: 250px;
+}
+
+#textoAboutUs {
+    position: absolute;
+    top: 25vw;
+    left: 10vw;
+    width: 71%;
+}
+
+#h1AboutUs::before {
+    content: "-";
+    font-size: 95px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color: black;
+    position: absolute;
+    left: -50px;
+    top: -20px;
+}
+
+#pAboutUs {
+    position: absolute;
+    top: 7vw;
+    left: 35vw;
+}
+
+button {
+    background-color: #c1c5d6;
+    border: none;
+    color: black;
+    padding: 0.5em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.8em;
+    cursor: pointer;
+    border-radius: 0.5em;
 }
 
 
+#botonMain {
+    position: absolute;
+    top: 47vw;
+    left: 46vw;
+}
+
+/*---------- FOOTER ----------*/
+
+footer {
+    position: relative;
+    background: #5a5b62;
+    width: 100%;
+    height: 250px;
+    top: 82vw;
+    left: 0;   
+}
+
+#botMenu {
+
+}
+
+#footerList {
+
+}
