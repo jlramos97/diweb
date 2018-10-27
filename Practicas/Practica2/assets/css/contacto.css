@@ -64,3 +64,109 @@ li {
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+#mainContacto {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+.h1Fancy {
+    position: absolute;
+    top: 5vw;
+    left: 15vw;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+    color: #787FA0;
+    font-size: 7em;
+    margin-bottom: 2.5vw;
+}
+
+.h1Fancy::before {
+    content: "-";
+    font-size: 95px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color: black;
+    position: absolute;
+    left: -50px;
+    top: -20px;
+}
+
+p {
+    position: absolute;
+    width: 45em;
+    top: 12em;
+    margin-top: 0.5vw;
+    left: 15vw;
+    font-size: 1.6em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+form {
+    position: relative;
+    top: 50em;
+    left: 15vw;
+}
+
+input, textarea {
+    font-size: 1.6em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    border-radius: 5px;
+    padding: 10px;
+    width: 300px;
+    resize: none;
+}
+
+#inputNombre {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#inputAsunto {
+    position: absolute;
+    top: 0;
+    left: 350px;
+}
+
+#inputEmail {
+    position: absolute;
+    top: 5em;
+    left: 0;
+}
+
+#inputTel {
+    position: absolute;
+    top: 10em;
+    left: 0;
+}
+
+#inputMensaje {
+    position: absolute;
+    top: 5em;
+    left: 350px;
+    height: 100px;
+}
+
+#inputEnviar {
+    position: absolute;
+    top: 15em;
+    left: 525px;
+    width: 120px;
+    background-color: #c1c5d6;;
+    border-style: none;
+    font-weight: 500;
+}
+
+footer {
+    position: relative;
+    background: #5a5b62;
+    width: 100%;
+    height: 250px;
+    top: 90em;
+    left: 0;   
+}
