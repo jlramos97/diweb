@@ -50,6 +50,11 @@ li {
     text-align: center;
 }
 
+.topMenu2 * {
+    text-decoration: none;
+    color: black;
+}
+
 .menuSelected {
     text-decoration: line-through;
 }
@@ -162,6 +167,32 @@ input, textarea {
     font-weight: 500;
 }
 
+#flecha {
+    position: relative;
+    top: 35em;
+    left: 70em;
+    width: 600px;
+    height: 800px;
+    background-image: url('../img/flecha.svg');
+    background-repeat: no-repeat;
+}
+
+#informacionContacto {
+    position: relative;
+    top: -35em;
+    left: 110em;
+}
+
+#informacionContacto * {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.5em;
+    display: list-item;
+    list-style: none;
+    padding-top: 3em;
+}
+
+/*----------FOOTER----------*/
 footer {
     position: relative;
     background: #5a5b62;
