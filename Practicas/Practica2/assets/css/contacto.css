@@ -18,7 +18,6 @@ header {
     left: 3.5em;
     width: 100%;
     height: 150px;
-    /* background-color: black; */
 }
 
 #logoFull {
@@ -59,12 +58,13 @@ li {
     text-decoration: line-through;
 }
 
-/*----------BANNER----------*/
+/*------------------------------BANNER------------------------------*/
 
 #fotoContacto {
     position: relative;
     width: 100%;
     height: 400px;
+    min-width: 818px;
     background-image: url(../img/Contacto.jpg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -192,13 +192,13 @@ input, textarea {
     padding-top: 3em;
 }
 
-/*----------FOOTER----------*/
+/*------------------------------FOOTER------------------------------*/
 footer {
     position: relative;
     background: #5a5b62;
     width: 100%;
     height: 250px;
-    top: 90em;
+    top: 0em;
     left: 0;      
     font-family: 'Roboto Slab', serif;
     color: #c1c5d6;
@@ -246,11 +246,185 @@ footer {
 
 #copyright {
     position: absolute;
-    top: 2em;
+    top: 1.7em;
     right: 10vw;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.6em;
     font-weight: 400;
 }
 
+.rrss {
+    position: absolute;
+    top: 17em;
+    width: 10em;
+    height: 6em;
+}
 
+#instagram {
+    right: 19.5em;
+    background-image: url('../img/insta.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#facebook {
+    right: 13em;
+    background-image: url('../img/face.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#tumblr {
+    right: 6.5em;
+    background-image: url('../img/tumblr.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#twitter {
+    right: 0;
+    background-image: url('../img/twitter.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media screen and (max-width: 1366px) {
+
+    #topMenu {
+        position: relative;
+        top: 15em;
+        left: 0;
+        text-align: center;
+    }
+
+    #fotoContacto {
+        position: relative;
+        top: 10em;
+    }
+
+    #flecha {
+        visibility: hidden;
+    }
+
+    #informacionContacto {
+        position: relative;
+        top: -5em;
+        left: 15vw;
+    }
+
+    .h1Fancy {
+        position: absolute;
+        top: 0em;
+        left: 15vw;
+        font-family: 'Roboto Slab', serif;
+        font-weight: 100;
+        color: #787FA0;
+        font-size: 7em;
+        margin-bottom: 2.5vw;
+    }
+
+    p {
+       width: 40em; 
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .h1Fancy {
+        top: -2em;
+    }
+
+    p {
+        top: 5em;
+        width: 80vw;
+    }
+
+    #topMenu * {
+        display: list-item;
+        list-style-type: none;
+        text-align: left;
+    }
+
+    #topMenu {
+        top: 100px;
+    }
+}
+
+@media screen and (max-width: 818px) {
+
+    #contenedorForm {
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+
+    form {
+        padding: 0;
+        display: inline-block;
+        margin: 0 auto;
+        left: -16em;
+    }
+
+    #inputAsunto {
+        top: 17em;
+        left: 0;
+    }
+
+    #inputMensaje {
+        top: 22em;
+        left: 0;
+    }
+
+    #inputEnviar {
+        top: 32em;
+        left: 6em;
+    }
+
+    footer {
+        top: 40em;
+    }
+
+    #informacionContacto {
+        position: relative;
+        top: 30em;
+        left: 15vw;
+    }
+
+    footer {
+        height: 400px;
+    }
+
+    #menuMain {
+        top: 5em;
+        left: 2em;
+    }
+
+    #menuProyectos {
+        top: 5em;
+        left: 33vw;
+    }
+
+    #menuContacto {
+        top: 5em;
+        left: 66vw;
+    }
+
+    .rrss {
+        top: 32em;
+    }
+}
+
+@media screen and (max-width: 502px) {
+    .h1Fancy {
+        font-size: 5em;
+        line-height: 50px;
+    }
+
+    .h1Fancy::before {
+        top: -5px;
+    }
+
+    p {
+       top: 2em; 
+    }
+
+}

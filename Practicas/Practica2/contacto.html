@@ -11,8 +11,8 @@
     <header>
         <div id="logoFull"></div>
         <ul id="topMenu">
-            <li class="topMenu2"><a href="">INICIO</a></li>
-            <li class="topMenu2"><a href="">PROYECTOS</a></li>
+            <li class="topMenu2"><a href="./index.html">INICIO</a></li>
+            <li class="topMenu2"><a href="./proyectos.html">PROYECTOS</a></li>
             <li class="topMenu2 menuSelected"><a href="">CONTACTO</a></li>
         </ul>
     </header>
@@ -44,16 +44,19 @@
             exerci tation ullamcorper suscipit lobortis nisl ut <br>
         </p>
 
-        <form>
-            <input type="text" name="nombre" id="inputNombre" placeholder="Tu nombre...">
-            <input type="text" name="asunto" id="inputAsunto" placeholder="Asunto"> <br>
-            <input type="email" name="email" id="inputEmail" placeholder="Tu e-mail...">
-            <input type="tel" name="telefono" id="inputTel" placeholder="Tu teléfono...">
-            <textarea name="mensaje" id="inputMensaje" cols="30" rows="4" placeholder="Escribe tu mensaje..."></textarea>
-            <br>
+        <div id="contenedorForm">
+            <form>
+                <input type="text" name="nombre" id="inputNombre" placeholder="Tu nombre...">
+                <input type="text" name="asunto" id="inputAsunto" placeholder="Asunto"> <br>
+                <input type="email" name="email" id="inputEmail" placeholder="Tu e-mail...">
+                <input type="tel" name="telefono" id="inputTel" placeholder="Tu teléfono...">
+                <textarea name="mensaje" id="inputMensaje" cols="30" rows="4" placeholder="Escribe tu mensaje..."></textarea>
+                <br>
+    
+                <input type="submit" value="ENVIAR" id="inputEnviar">
+            </form>
+        </div>
 
-            <input type="submit" value="ENVIAR" id="inputEnviar">
-        </form>
 
         <div id="flecha"></div>
 
@@ -69,7 +72,7 @@
         <span id="tituloFooter">Enlaces de interés:</span>    
         <ul id="menuMain">
             <li class="tituloMenuFooter"><a href="">Inicio</a></li>
-            <li><a href="">Bienvenido</a></li>
+            <li><a href="./index.html#welcome">Bienvenido</a></li>
             <li><a href="">Sobre nosotros</a></li>
         </ul>
 
@@ -83,10 +86,10 @@
 
         <span id="copyright">© 2018 quatro a </span>
 
-        <div id="instagram"></div>
-        <div id="facebook"></div>
-        <div id="tumblr"></div>
-        <div id="twitter"></div>
+        <div class="rrss" id="instagram"></div>
+        <div class="rrss" id="facebook"></div>
+        <div class="rrss" id="tumblr"></div>
+        <div class="rrss" id="twitter"></div>
     </footer>
 </body>
 </html>
