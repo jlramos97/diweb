@@ -74,7 +74,7 @@ li {
 
 .h1Fancy {
     position: absolute;
-    top: 5vw;
+    top: 0.5em;
     left: 15vw;
     font-family: 'Roboto Slab', serif;
     font-weight: 100;
@@ -157,7 +157,7 @@ input, textarea {
     top: 15em;
     left: 525px;
     width: 120px;
-    background-color: #c1c5d6;;
+    background-color: #c1c5d6;
     border-style: none;
     font-weight: 500;
 }
@@ -168,5 +168,58 @@ footer {
     width: 100%;
     height: 250px;
     top: 90em;
-    left: 0;   
+    left: 0;      
+    font-family: 'Roboto Slab', serif;
+    color: #c1c5d6;
 }
+
+#tituloFooter {
+    position: absolute;
+    top: 1.5em;
+    left: 3.5em;
+    font-size: 1.6em;
+}
+
+.tituloMenuFooter {
+    font-weight: bold;
+}
+
+#menuMain {
+    position: absolute;
+    top: 0;
+    left: 20vw;
+    font-size: 1.6em;
+}
+
+#menuProyectos {
+    position: absolute;
+    top: 0;
+    left: 40vw;
+    font-size: 1.6em;
+}
+
+#menuContacto {
+    position: absolute;
+    top: 0;
+    left: 60vw;
+    font-size: 1.6em;
+}
+
+#menuMain *, #menuProyectos *, #menuContacto * {
+    display: list-item;
+    padding: 15px;
+    list-style: none;
+    text-decoration: none;
+    color: #c1c5d6;
+}
+
+#copyright {
+    position: absolute;
+    top: 2em;
+    right: 10vw;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6em;
+    font-weight: 400;
+}
+
+
