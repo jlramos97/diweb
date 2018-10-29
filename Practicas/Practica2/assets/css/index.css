@@ -360,13 +360,21 @@ footer {
         left: 15px;
     }
 
+    .h3Thin {
+        font-size: 3em;
+    }
+
+    #raro {
+        width: 49em;
+    }
+
     #h1Bienvenido {
         top: 2em;
         left: 3em;
     }
 
     #welcome {
-        top: 5em;
+        top: 0em;
         left: 5em;
     }
 
@@ -389,4 +397,65 @@ footer {
         left: 2vw;
         font-size: 2em;
     }
+
+    #botonMain {
+        top: 40em;
+    }
+
+    footer {
+        top: 100em;
+    }
+
+    @media screen and (max-width: 960px) {
+
+        #tituloMain {
+            top: 8em;
+        }
+
+        #logo {
+            width: 80px;
+            height: 80px;
+        }
+
+        #topMenu{
+            top: 60vw;
+        }
+
+        #topMenu * {
+            display: block;
+        }
+
+        #raro {
+            position: absolute;
+            top: 72em;
+            width: 80vw;
+            margin: 10px;
+        }
+
+        footer {
+            top: 90em;
+            height: 400px;
+        }
+    
+        #menuMain {
+            top: 5em;
+            left: 2em;
+        }
+    
+        #menuProyectos {
+            top: 5em;
+            left: 33vw;
+        }
+    
+        #menuContacto {
+            top: 5em;
+            left: 66vw;
+        }
+    
+        .rrss {
+            top: 32em;
+        }
+        
+    }
+    
 }
