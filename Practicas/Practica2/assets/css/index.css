@@ -352,3 +352,45 @@ footer {
         font-size: 3em;
     }
 }
+
+@media screen and (max-width: 1132px) {
+
+    #tituloMain {
+        bottom: 0px;
+        left: 15px;
+    }
+
+    #h1Bienvenido {
+        top: 2em;
+        left: 3em;
+    }
+
+    #welcome {
+        top: 5em;
+        left: 5em;
+    }
+
+    #pWelcome {
+        top: 15em;
+        left: 5vw;
+        font-size: 2em;
+    }
+
+    /* #imgAboutUs {
+        top: 40em;
+    } */
+
+    #aboutUs {
+        top: 0em;
+    }
+
+    #textoAboutUs {
+        top: 25em;
+        left: 10em;
+    }
+
+    #pAboutUs {
+        left: 2vw;
+        font-size: 2em;
+    }
+}
