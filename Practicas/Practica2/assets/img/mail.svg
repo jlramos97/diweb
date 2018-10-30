@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 1280 1024" style="enable-background:new 0 0 1280 1024;" xml:space="preserve">
+	 viewBox="0 0 1366 768" style="enable-background:new 0 0 1366 768;" xml:space="preserve">
 <g>
-	<path d="M640.5,516.8l-4.8-4.2l-13.8,11.8c0.5,0.5,1.2,0.8,1.9,0.8h33.4c0.7,0,1.4-0.3,1.9-0.8l-13.8-11.8L640.5,516.8z"/>
-	<path d="M659.1,498.1c-0.5-0.5-1.2-0.8-1.9-0.8h-33.4c-0.7,0-1.4,0.3-1.9,0.8l18.6,16L659.1,498.1z"/>
-	<polygon points="621,499.8 621,522.9 634.5,511.5 	"/>
-	<polygon points="646.6,511.5 660,522.9 660,499.8 	"/>
+	<path d="M724.6,521.7L605.4,417.5l-340.7,292c12.4,11.6,29,18.7,47.5,18.7h824.6c18.3,0,35-7.1,47.4-18.7l-340.5-292L724.6,521.7z"
+		/>
+	<path d="M1184.4,58.8c-12.4-11.6-29-18.7-47.5-18.7H312.2c-18.3,0-35,7.1-47.4,18.8l459.7,394L1184.4,58.8z"/>
+	<polygon points="243,100.5 243,672.1 575.5,389.6 	"/>
+	<polygon points="873.7,389.6 1206.2,672.1 1206.2,100.3 	"/>
 </g>
 </svg>

@@ -192,6 +192,44 @@ input, textarea {
     padding-top: 3em;
 }
 
+#telefono::before {
+    content: '';
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    background-image: url(../img/tlf.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-right: 25px;
+}
+
+
+#email::before {
+    content: '';
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    background-image: url(../img/mail.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-right: 25px;
+}
+
+#direccion::before {
+    content: '';
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    background-image: url(../img/ubi.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-right: 25px;
+}
+
+
 /*------------------------------FOOTER------------------------------*/
 footer {
     position: relative;
@@ -288,7 +326,7 @@ footer {
     background-size: contain;
 }
 
-@media screen and (max-width: 1366px) {
+@media screen and (max-width: 1420px) {
 
     #topMenu {
         position: relative;
