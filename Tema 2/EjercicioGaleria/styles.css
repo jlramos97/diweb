@@ -84,6 +84,19 @@ body {
     width: 50%;
 }
 
+
+#cajacentro2 {
+    background-color: aqua;
+    width: 50%;
+    margin-top: 10px;
+}
+
+#cajacentro2::after {
+    content: "";
+    padding-bottom: 100%;
+    display: block;
+}
+
 #cajacentro::after {
     content: "";
     padding-bottom: 100%;
