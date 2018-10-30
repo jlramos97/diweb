@@ -380,8 +380,8 @@ footer {
 
     #pWelcome {
         top: 15em;
-        left: 5vw;
-        font-size: 2em;
+        left: 0vw;
+        /* font-size: 2em; */
     }
 
     #aboutUs {
@@ -395,7 +395,7 @@ footer {
 
     #pAboutUs {
         left: 2vw;
-        font-size: 2em;
+        /* font-size: 2em; */
     }
 
     #botonMain {
@@ -455,7 +455,34 @@ footer {
         .rrss {
             top: 32em;
         }
-        
     }
+
+    @media screen and (max-width: 696px) {
+        #h1Bienvenido {
+            text-align: center;
+            margin: 0 auto;
+            left: 0vw;
+        }
+
+        #pWelcome {
+            width: 80vw;
+            top: 20em;
+        }
+
+        #pAboutUs {
+            width: 80vw;
+            top: 15em;
+            left: -2em;
+        }
+
+        #botonMain {
+            top: 50em;
+            left: 36vw;
+        }
+
+        footer {
+            top: 120em;
+        }
+    }    
     
 }
