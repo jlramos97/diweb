@@ -150,9 +150,38 @@ p {
     width: 66%;
 }
 
-#textoFoto1:hover{
-    color: white;
+#foto1:hover::after{
+    background-image: url('../img/gal1hover.jpg');
 }
+
+#foto2:hover::after{
+    background-image: url('../img/gal2hover.jpg');
+}
+
+#foto3:hover::after{
+    background-image: url('../img/gal3hover.jpg');
+}
+
+#foto4:hover::after{
+    background-image: url('../img/gal4hover.jpg');
+}
+
+#foto5:hover::after{
+    background-image: url('../img/gal5hover.jpg');
+}
+
+#foto6:hover::after{
+    background-image: url('../img/gal6hover.jpg');
+}
+
+#foto7:hover::after{
+    background-image: url('../img/gal7hover.jpg');
+}
+
+#foto8:hover::after{
+    background-image: url('../img/gal8hover.jpg');
+}
+
 
 #fotos {
     position: relative;
@@ -233,7 +262,6 @@ p {
     content: "";
     padding-bottom: 100%;
     display: block;
-    background-color: red;
     background-image: url(../img/gal5.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -243,7 +271,6 @@ p {
     content: "";
     padding-bottom: 100%;
     display: block;
-    background-color: blue;
     background-image: url(../img/gal6.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -253,7 +280,6 @@ p {
     content: "";
     padding-bottom: 100%;
     display: block;
-    background-color: red;
     background-image: url(../img/gal7.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -263,7 +289,6 @@ p {
     content: "";
     padding-bottom: 100%;
     display: block;
-    background-color: blue;
     background-image: url(../img/gal8.jpg);
     background-size: cover;
     background-repeat: no-repeat;
