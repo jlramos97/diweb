@@ -26,7 +26,7 @@ header {
 #logoFull {
     position: absolute;
     top: 0em;
-    left: 25vw;
+    left: 0vw;
     width: 250px;
     height: 60%;
     background-image: url(../img/logoFull.svg);
@@ -67,12 +67,12 @@ li {
 #fondo {
     position: absolute;
     width: 100%;
-    height: 80em;
+    height: 80vw;
     top: 0;
     left: 0;
     background-image: url('../img/proyectos.svg');
     background-repeat: no-repeat;
-    background-position: -58em center;
+    background-position: -43vw center;
     background-size: cover;
     margin: 0 auto;
 }
@@ -89,28 +89,40 @@ li {
 .h1Thin {
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
-    font-size: 7em;
+    font-size: 9em;
 }
 
 #h1Proyectos {
     position: absolute;
     top: 5em;
-    left: 10em;
+    left: 8em;
+}
+
+#lineProyectos {
+    position: absolute;
+    width: 50em;
+    height: 150px;
+    top: 42em;
+    left: 67em;
+    background-image: url('../img/linea.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 p {
     position: absolute;
-    top: 35em;
-    right: 7em;
+    top: 40em;
+    right: 10em;
     width: 30em;
-    font-size: 1.6em;
+    font-size: 1.8em;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
+    line-height: 20px;
 } 
 
 #galeria {
     position: relative;
-    top: -80em;
+    top: -35em;
     width: 100%;
     height: 230em;
     margin: 0 auto;
@@ -122,6 +134,17 @@ p {
     left: 42vw;
 }
 
+#lineGaleria {
+    position: absolute;
+    width: 50em;
+    height: 150px;
+    top: 132em;
+    right: 45em;
+    background-image: url('../img/linea.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .foto {
     width: 66%;
 }
@@ -129,7 +152,7 @@ p {
 #fotos {
     position: absolute;
     width: 50%;
-    top: 120em;
+    top: 140em;
     left: 0;
     display: inline-block;
 }
@@ -137,7 +160,7 @@ p {
 #fotos2 {
     position: absolute;
     width: 50%;
-    top: 120em;
+    top: 140em;
     right: 0;
     display: inline-block;
 }
@@ -237,7 +260,7 @@ footer {
     background: #5a5b62;
     width: 100%;
     height: 250px;
-    top: 170em;
+    top: 250em;
     left: 0;      
     font-family: 'Roboto Slab', serif;
     color: #c1c5d6;
@@ -325,4 +348,78 @@ footer {
     background-image: url('../img/twitter.svg');
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+@media screen and (max-width: 1278px) {
+    
+    #topMenu {
+        text-align: right;
+    }
+
+    #topMenu * {
+        display: block;
+        text-align: right;
+    }
+
+    #h1Proyectos {
+        left: 5em;
+    }
+
+    #lineProyectos {
+        left: 39em;
+    }
+
+    p {
+        top: 60em;
+    }
+
+    footer {
+        top: 120em;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    #h1Proyectos {
+        left: 3em;
+    }
+
+    #lineProyectos {
+        left: 37em;
+    }
+
+    footer {
+        top: 80em;
+    }
+}
+
+@media screen and (max-width: 878px) {
+    #fondo {
+        visibility: hidden;
+    }
+
+    #h1Proyectos {
+        left: 1em;
+    }
+
+    #lineProyectos {
+        left: 15em;
+    }
+
+    p {
+        top: 40em;
+    }
+
+    #galeria {
+        top: -80em;
+    }
+
+    #h1Galeria {
+        left: 1em;
+    }
+
+    #lineGaleria {
+        left: 15em;
+    }
+
 }
