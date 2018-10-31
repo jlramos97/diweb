@@ -150,7 +150,7 @@ p {
 }
 
 #fotos {
-    position: absolute;
+    position: relative;
     width: 50%;
     top: 140em;
     left: 0;
@@ -354,6 +354,7 @@ footer {
     
     #topMenu {
         text-align: right;
+        right: 10px;
     }
 
     #topMenu * {
@@ -408,6 +409,7 @@ footer {
 
     p {
         top: 40em;
+        left: 2em;
     }
 
     #galeria {
@@ -422,4 +424,62 @@ footer {
         left: 15em;
     }
 
+    #fotos, #fotos2 {
+        width: 100%;
+    }
+
+    #fotos {
+        margin-left: 4vw;
+    }
+
+    #fotos2 {
+        position: relative;
+        margin-left: 12vw;
+    }
+
+    footer {
+        top: 350em;
+    }
+
+    @media screen and (max-width: 878px) {
+        #logoFull {
+            width: 200px;
+        }
+
+        #h1Proyectos {
+            font-size: 7em;
+            left: 0.2em;
+        }
+
+        #lineProyectos {
+            width: 380px;
+            left: 1em;
+            top: 33em;
+        }
+
+        p {
+            width: 80vw;
+            top: 30em;
+        }
+
+        #galeria {
+            top: -100em;
+        }
+
+        #h1Galeria {
+            font-size: 8em;
+            left: 0.2em;
+        }
+
+        #lineGaleria {
+            width: 380px;
+            left: 1em;
+            top: 119em;
+        }
+
+        footer {
+            top: 130em;
+        }
+
+    }
 }
