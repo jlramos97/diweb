@@ -437,49 +437,75 @@ footer {
         margin-left: 12vw;
     }
 
-    footer {
-        top: 350em;
+    #logoFull {
+        width: 200px;
     }
 
-    @media screen and (max-width: 878px) {
-        #logoFull {
-            width: 200px;
-        }
+    #h1Proyectos {
+        font-size: 7em;
+        left: 0.2em;
+    }
 
-        #h1Proyectos {
-            font-size: 7em;
-            left: 0.2em;
-        }
+    #lineProyectos {
+        width: 380px;
+        left: 1em;
+        top: 33em;
+    }
 
-        #lineProyectos {
-            width: 380px;
-            left: 1em;
-            top: 33em;
-        }
+    p {
+        width: 80vw;
+        top: 30em;
+    }
 
-        p {
-            width: 80vw;
-            top: 30em;
-        }
+    #galeria {
+        top: -100em;
+    }
 
-        #galeria {
-            top: -100em;
-        }
+    #h1Galeria {
+        font-size: 8em;
+        left: 0.2em;
+    }
 
-        #h1Galeria {
-            font-size: 8em;
-            left: 0.2em;
-        }
+    #lineGaleria {
+        width: 380px;
+        left: 1em;
+        top: 119em;
+    }
 
-        #lineGaleria {
-            width: 380px;
-            left: 1em;
-            top: 119em;
-        }
+    footer {
+        top: 350em;
+        height: 400px;
+    }
 
-        footer {
-            top: 130em;
-        }
+    #menuMain {
+        top: 5em;
+        left: 2em;
+    }
 
+    #menuProyectos {
+        top: 5em;
+        left: 33vw;
+    }
+
+    #menuContacto {
+        top: 5em;
+        left: 66vw;
+    }
+
+    .rrss {
+        top: 32em;
+    }
+}
+
+
+@media screen and (max-width: 666px) {
+    footer {
+        top: 250em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    footer {
+        top: 150em;
     }
 }
