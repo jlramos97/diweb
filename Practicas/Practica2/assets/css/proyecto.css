@@ -150,8 +150,8 @@ p {
     width: 66%;
 }
 
-.foto:hover{
-    filter: brightness(50%);
+#foto1:hover~#textoFoto1{
+    visibility: visible;
 }
 
 #fotos {
@@ -160,6 +160,7 @@ p {
     top: 140em;
     left: 0;
     display: inline-block;
+    text-align: center;
 }
 
 #fotos2 {
@@ -168,8 +169,18 @@ p {
     top: 140em;
     right: 0;
     display: inline-block;
+    text-align: center;
 }
 
+.textoFoto {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2em;
+    position: relative;
+    top: 5em;
+    color: white;
+    /* visibility: hidden; */
+}
 
 #foto1, #foto3, #foto5, #foto7 {
     margin-top: 12vw;
