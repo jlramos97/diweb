@@ -150,8 +150,8 @@ p {
     width: 66%;
 }
 
-#foto1:hover~#textoFoto1{
-    visibility: visible;
+#textoFoto1:hover{
+    color: white;
 }
 
 #fotos {
@@ -178,7 +178,7 @@ p {
     font-size: 2em;
     position: relative;
     top: 5em;
-    color: white;
+    color: transparent;
     /* visibility: hidden; */
 }
 
