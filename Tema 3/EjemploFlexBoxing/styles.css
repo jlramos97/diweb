@@ -1,0 +1,44 @@
+html, body {
+    height: 100%;
+}
+
+#wrapper {
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+}
+
+.centerMe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 550px; 
+}
+
+#uno {
+    width: 250px;
+    height: 250px;
+    background-color: aqua;
+    /* margin: 10px; */
+}
+
+#dos {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(79, 137, 214);;
+    /* margin: 10px; */
+}
+
+#tres {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(69, 66, 243);
+    /* margin: 10px; */
+}
+
+#cuatro {
+    width: 250px;
+    height: 250px;
+    background-color: blue;
+    /* margin: 10px; */
+}

@@ -1,0 +1,28 @@
+section {
+    margin: 0 auto;
+    width: 70%;
+    height: 70%;
+}
+
+/*
+poniendole margen conseguimos mover la caja
+
+margin y padding suman al tamaño de la caja
+salvo que especifiquemos box-sizing: border-box
+
+ya veremos esto más tarde
+*/
+#circulo {
+    width: 500px;
+    height: 500px;
+    shape-outside: circle(25% at 30% 30%);
+    float: left;
+}
+
+#triangulo {
+    width: 500px;
+    height: 500px;
+    shape-outside: polygon(25% 25%, 0 100%, 100% 100%);
+    float: left;
+}
+
