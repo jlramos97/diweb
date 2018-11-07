@@ -1,0 +1,36 @@
+#wrapper, header, nav, ul {
+    width: 100%;
+}
+
+nav {
+    flex-flow: row nowrap;
+}
+
+ul {
+    height: 5em;
+    justify-content: flex-end;
+}
+
+li {
+    background: rgb(226, 103, 103);
+    height: 70%;
+    width:20%;
+    font-size: 1.6em;
+    text-align: center;
+    list-style-type: none;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#home {
+    margin-right: 14vw;
+}
+
+li:nth-child(1) {
+    background-color: blueviolet;
+}
