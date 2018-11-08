@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Poor+Story|Slabo+27px');
+/* 
+    font-family: 'Poor Story', cursive;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Slabo 27px', serif;
+ */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(pattern.jpg);
+    font-family: "Montserrat";
+    color: #594352;
+}
+
+.wrapper {
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 90%;
+    min-width: 380px;
+    margin: 0 auto;
+    padding: 10px; /*pa que no estén 100% pegadas las letras*/
+}
+
+h1, h2, h3 {
+    font-family: "Slabo 27px";
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+}
+
+h1 {
+    font-size: 300%;
+    font-weight: 800;
+    color: #c91015;
+}
+
+.intro {
+    margin-bottom: 1.5em;
+    font-size: 125%;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+.tagline {
+    font-family: "Poor Story";
+    font-size: 1.6em;
+    color: #e8368c;
+    text-shadow: 1px 1px 1px grey;
+}
+
+.list-nav {
+    display: flex;
+    justify-content: space-around;
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: "Poor Story";
+    font-weight: normal;
+    font-size: 1.4rem;
+}
+
+.list-nav li a  {
+    text-decoration: none;
+    color: #ffd6f1;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.list-nav li:first-child a {
+    background-color: #566c43;
+    color: #f1f8a2;
+}
+
+.list-nav li:nth-child(2) a {
+    background-color: #fca33c;
+    color: #f1f8a2;
+}
+
+.list-nav li:nth-child(3) a {
+    background-color: #98083f;
+    color: #f2b3cb;
+}
+
+.list-nav li:last-child a {
+    background-color: #25adf5;
+    color: #0bebfd;
+}
+
+.builder {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.component {
+    /*revisar esto*/
+    flex: 1 1 200px;
+    
+    display: flex;
+    flex-direction: column;
+
+    margin: 20px 10px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.component h2 {
+    /* position: relative; */
+    margin: 0 0 .5em 0;
+    padding: 10px 0 0 0;
+    border-bottom: 1px solid #ffa489;
+}
+
+.component ul {
+    margin: 0;
+    padding: 0;
+    flex: 1; /*force it to strech to full height. 
+               height 100% wont work because parent
+               doesn't have height declared*/
+
+    display: flex;
+    flex-direction: column;
+}
+
+.builder ul li {
+    list-style-type: none;
+    line-height: 1.5em;
+}
+
+.component ul li:last-child {
+    margin-top: auto; /*Para que se vaya al fondo*/
+}
+
+.component li {
+    margin-bottom: .5em; /*más espacio*/
+}
+
+.component li:last-child {
+    /*para que la caja de texto de other se quede al lado del label siempre*/
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+}
+
+.component li:last-child label {
+    /*Para separar el label del cuadro de texto*/
+    margin-right: 10px;
+}
+
+.component .other-name {
+    flex: 1;
+
+    /*FALLBACK POR SI EL NAVEGADOR NO SOPORTA 
+    FLEXBOXING PA QUE SE VEA ALGO AL MENOS*/
+    /* display: block;
+    
+    box-sizing: border-box;
+    width: 100%; */
+    margin: 0;
+}
+
+/*DEJAR ESPACIO EN BLANCO PA SEPARAR EN ESTAS CATEGORIAS*/
+.action  {
+    /*COMO CONTENEDOR FLEXIBLE*/
+    flex: 1 1 100%;
+
+    /*COMO ELEMENTO FLEXIBLE*/
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+    /*COMO ELEMENTO NORMAL*/
+    margin: 0 0 0 20px;
+}
