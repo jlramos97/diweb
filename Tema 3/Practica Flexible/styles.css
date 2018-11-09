@@ -184,3 +184,110 @@ h1 {
     /*COMO ELEMENTO NORMAL*/
     margin: 0 0 0 20px;
 }
+
+
+.action label {
+    margin-right: 10px;
+
+    font-family: "Slabo 27px";
+    font-weight: normal;
+    font-size: 112.5%;
+    text-transform: uppercase;
+}
+
+.action input {
+    flex: 1;
+}
+
+.action button {
+    flex: 1 1 100%;
+
+    margin-top: 10px;
+
+    background-color: #ae5483;
+    padding: 5px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 800;
+    border: none;
+}
+
+.gallery {
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    text-align: center;
+}
+
+.gallery-item {
+    flex: 1 0 200px; 
+    /*wrapping wont happen with 1 as value because of flex basis equal to 0 again
+    can use auto as flex basis but then each box
+    is different wifth. using an absolute value
+    acts as min width but also ensures they start out same size
+    so when flex gets adden it gets added equally
+    and each box on same line stays same width*/
+
+    margin: 0 010px 10px;
+    padding: 20px;
+    border-radius: 2px;
+
+    border: 1px solid hsl(30, 28%, 20%);
+
+    background: hsl(20, 28%, 30%);
+
+    color: hsl(30, 28%, 90%);
+}
+
+.gallery-item:hover {
+    background: hsl(30, 28%, 20%);
+
+    color: #fca33c;
+    cursor: pointer;
+}
+
+.gallery-item h3  {
+    margin: 0 0 .5em 0;
+    padding-bottom: 3px;
+    border-bottom: 1px solid white;
+}
+
+.gallery-item ul {
+    margin: 0;
+    padding: 5px;
+    list-style: square;
+    text-align: left;
+}
+
+
+.pagination {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+
+    margin: 20px 10px 40px 10px;
+    padding: 0;
+    list-style: none;
+}
+
+.pagination li:last-child {
+    order: 1; /*orden del elemento, si se lo pones a uno lo suyo
+                 es que se lo pongas a todos xd*/
+    text-align: right;
+}
+
+.pagination a {
+    display: inline-block; /*just keeps padded boxes from overlapping each other vertically*/
+    margin: 0 0 10px 0;
+    padding: 10px;
+    border-radius: 2px;
+    /* border: 1px solid #E9E2D8; */
+    border: 1px solid hsla(0, 0%, 100%, .3);
+    background: hsla(0, 0%, 100%, .4);
+    text-decoration: none;
+    color: black;
+}
