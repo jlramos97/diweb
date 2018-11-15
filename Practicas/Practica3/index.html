@@ -8,48 +8,51 @@
     <title>MNClub</title>
 </head>
 <body>
-    <header>
+    <div id="wrapper">
+        <header>
         <nav>
             <a href="index.html"><div id="logo"></div></a>
             <ul id="headerUl">
-                <li class="headerElement" id="headerElement1">INICIO</li>
-                <li class="headerElement" id="headerElement2">SOBRE NOSOTROS</li>
-                <li class="headerElement" id="headerElement3">RUTAS</li>
-                <li class="headerElement" id="headerElement4">CONTACTO</li>
+                <li class="headerElement" id="headerElement1"><a href="">INICIO</a></li>
+                <li class="headerElement" id="headerElement2"><a href="">SOBRE NOSOTROS</a></li>
+                <li class="headerElement" id="headerElement3"><a href="">RUTAS</a></li>
+                <li class="headerElement" id="headerElement4"><a href="">CONTACTO</a></li>
             </ul>
         </nav>
     </header>
-
     <section id="mainInicio">
         <video src="./assets/img/mainvideo.mp4" autoplay loop></video>
         <h1 class="h1Fancy" id="h1MainMain">Tu aventura comienza ya</h1>
         <div class="arrow"></div>
-        <h4 class="h4fancy" id="h4MainMain">Únete a MNClub</h3>
+        <h4 class="h4Fancy" id="h4MainMain">Únete a MNClub</h3>
     </section>
 
     <section id="mainInfo">
         <h1 class="h1Thin" id="h1MainInfo">MNClub</h1>
-        <span class="spanThin" id="spanMainInfo"></span>
+        <span class="spanThin" id="spanMainInfo">Tu club de alpinismo en Granada, España</span>
 
-        <div>
-            <div class="info">
-                <h4 class="h4Thin" id="h4Rutas">Rutas Mensuales</h4>
+        <div id="divpInfo">
+            <div class="info" id="info1">
+                <div class="imgInfo" id="imgInfo1"></div>
+                <h4 class="h4Fancy" id="h4Rutas">Rutas Mensuales</h4>
                 <p class="pInfo" id="infoRutas">
                     Cada mes, el equipo de MNClub nos reunimos para
                     buscar nuevas rutas para vivir siempre nuevas
                     experiencias con nuestros socios
                 </p>
             </div>
-            <div class="info">
-                <h4 class="h4Thin" id="h4Retos">Nuevos retos</h4>
+            <div class="info" id="info2">
+                <div class="imgInfo" id="imgInfo2"></div>
+                <h4 class="h4Fancy" id="h4Retos">Nuevos retos</h4>
                 <p class="pInfo" id="infoRetos">
                     Creemos que el mayor reto es superarse a sí
                     mismo. Por eso, además de contra tus compañeros
                     siempre competirás contra ti mismo.
                 </p>
             </div>
-            <div class="info">
-                <h4 class="h4Thin" id="h4Mundo">Conoce mundo</h4>
+            <div class="info" id="info3">
+                <div class="imgInfo" id="imgInfo3"></div>
+                <h4 class="h4Fancy" id="h4Mundo">Conoce mundo</h4>
                 <p class="pInfo" id="infoMundo">
                     No sólo trata de competir. Queremos viajar para
                     que cada ruta sea una experiencia para toda la
@@ -60,7 +63,7 @@
     </section>
 
     <section id="mainEscalada">
-        <h3 class="h3fancy" id="h3MainEscalada">La escalada desde otro punto de vista</h3>
+        <h3 class="h3Fancy" id="h3MainEscalada">La escalada desde otro punto de vista</h3>
         <span class="spanThin" id="spanMainEscalada">
             En MNClub hay sitio para todo amante de la escalada.
         </span>
@@ -82,11 +85,20 @@
             It was popularised in the 1960s with the release
             of Letraset sheets containing Lorem Ipsum passages,
             and more recently with desktop publishing software like
+            Aldus PageMaker including versions of Lorem Ipsum. <br><br>
+
+            Lorem Ipsum is simply dummy text
+            of the printing and typesetting industry.
+            Lorem Ipsum has been the industry's 
+            standard dummy text ever since the 1500s,
+            when an unknown printer took a galley of
+            type and scrambled it to make a type specimen book.
+            It has survived not onhing software like
             Aldus PageMaker including versions of Lorem Ipsum.
         </p>
     </section>
 
-    <footer>
+    <footer id="footerMain">
         <h4 class="h4Fat">ENLACES DE LA WEB</h4>
         <ul id="ulFooter">
             <li id="columnFooter">
@@ -126,5 +138,7 @@
             </div>
         </div>
     </footer>
+    </div>
+    
 </body>
 </html>

@@ -1,6 +1,8 @@
 /*CSS*/
 
-@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Montserrat|Montserrat:500');
+
+/*COMUN, CLASES*/
 
 * {
     margin: 0;
@@ -9,33 +11,96 @@
 
 html {
     font-size: 62.5%;
+    overflow-x: hidden;
 }
 
-/**
-El header es común para los 3 html
-*/
+a {
+    text-decoration: none;
+    color: #c6d2ed;
+}
+
+.linkBold {
+    font-size: 3.3em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.h1Fancy {
+    font-size: 10em;
+    font-family: 'Bree Serif', serif;
+    color: white;
+    font-weight: normal;
+}
+
+.h1Thin {
+    font-size: 8em;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: normal;
+}
+
+.h3Fancy {
+    font-size: 5em;
+    font-family: 'Bree Serif', serif;
+    color: #280003;
+    font-weight: normal;
+}
+
+.h4Fancy {
+    font-size: 3em;
+    font-family: 'Bree Serif', serif;
+    color: white;
+    font-weight: normal;
+}
+
+
+.spanThin{
+    font-size: 3.3em;
+    font-family: 'Montserrat', sans-serif;
+    color: #696D7D;
+    font-weight: normal;
+}
+
+.parrafo {
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: normal;
+}
+
+.pInfo {
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+    color: #696D7D;
+    font-weight: normal;
+}
+
+
+/*HEADER ---------------------------------------------------------------COMUN*/
 header, nav {
     width: 100%;
     height: 100px;
 }
 
 header {
-    position: relative;
+    position: absolute;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     z-index: 7;
 }
 
 nav {
-    position: absolute;
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
 #logo {
     position: absolute;
-    width: 150px;
+    width: 200px;
     height: 100%;
-    top: 1.5em;
-    left: 1.5em;
+    top: 3em;
+    left: 5em;
     background-image: url('../img/logoNaranja.svg');
     background-repeat: no-repeat;
 }
@@ -43,7 +108,7 @@ nav {
 header #headerUl {
     position: absolute;
     right: 0;
-
+    padding-top: 3em;
     list-style-type: none;
 }
 
@@ -51,10 +116,25 @@ header #headerUl {
     display: inline-block;
     color: #c6d2ed;
     font-size: 3em;
-    padding-right: 120px;
+    padding-right: 7vw;
 }
 
-/*meter margin y padding*/
+/*FOOTER ---------------------------------------------------------------COMUN*/
+
+footer {
+    position: absolute;
+    left: 0;
+    
+    width: 100%;
+    height: 50em;
+    background-color: #696D7D;
+}
+
+#footerMain {
+    top: 320em;
+}
+
+/*SECCION MAIN*/
 #mainInicio {
     width: 100%;
     height: 100vh;
@@ -69,6 +149,149 @@ video {
     z-index: -7;
     min-width: 100%;
     min-height: 100%;
+}
+
+#h1MainMain {
+    z-index: 7;
+
+    position: absolute;
+    top: 4em;
+    left: 2.8em;
+
+    width: 800px;
+    line-height: 1.25;
+}
+
+.arrow {
+    z-index: 7;
+
+    position: absolute;
+    top: 52em;
+    left: 42em;
+    
+    width: 550px;
+    height: 300px;
+
+    background-image: url('../img/flecha.svg');
+    background-repeat: no-repeat;
+}
+
+#h4MainMain {
+    z-index: 7;
+
+    position: absolute;
+    top: 23em;
+    left: 23em;
+}
+
+/*SECCION*/
+#mainInfo {
+
+    z-index: 7;
+
+    position: relative;
+    width: 100%;
+    height: 650px;
+    top: 110em;
+    left: 0;
+}
+
+#h1MainInfo {
+    position: absolute;
+    left: 42%;
+}
+
+#spanMainInfo {
+    position: absolute;
+    top: 3em;
+    left: 33%;
+}
+
+#divpInfo {
+    position: relative;
+    top: 35em;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.info {
+    flex: 1 1 200px;
+    
+    display: flex;
+    flex-direction: column;
+
+    margin: 20px 100px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.3);
+    text-align: center;
+}
+
+#h4Rutas, #h4Retos, #h4Mundo {
+    color: black;
+    padding-bottom: 2em;
+}
+
+/* #imgInfo1 {
+    height: 150px;
+    background-size: contain;
+    background-image: url('../img/info1.svg');
+    background-repeat: no-repeat;
+} */
+
+/*SECCION ESCALADA*/
+#mainEscalada {
+    position: relative;
+    top: 130em;
+    left: 0;
+
+    width: 100%;
+    height: 65em;
+    margin: 0 auto;
+    
+}
+
+#h3MainEscalada {
+    position: absolute;
+    top: 0;
+    left: 8em;
+    width: 30%;
+} 
+
+#spanMainEscalada {
+    position: absolute;
+    top: 5em;
+    left: 12em;
+}
+
+#linkMainEscalada {
+    position: absolute;
+    top: 6.2em;
+    left: 12em;
+}
+
+#mntSVG {
+    position: absolute;
+    top: 10em;
+    left: 12%;
+
+    width: 100%;
+    height: 80em;
+    
+
+    background-image: url('../img/mnt.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#parrafoMain {
+    position: absolute;
+    top: 40em;
+    left: 15%;
+
+    width: 70%;
 }
 
 
