@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,400,500|Roboto+Slab');
+/*font-family: 'Roboto Slab', serif;*/
+/*font-family: 'Montserrat', sans-serif;*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+#mainSection {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+/*----------HEADER----------*/
+
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 150px;
+    z-index: 10;
+}
+
+#logo {
+    position: absolute;
+    left: 40px;
+    top: 30px;
+    width: 120px;
+    height: 120px;
+    background-image: url(../img/logo.svg);
+    background-position: 0 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#topMenu {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    padding: 25px;
+}
+
+li {
+    display: inline-block;
+}
+
+.topElement {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 3.4em;
+    padding-right: 50px;
+    text-align: center;
+}
+
+.menuSelected {
+    text-decoration: line-through;
+}
+
+/* MAIN */
+
+#main {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/fondoMain.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 60vw;
+}
+
+.h1Thin {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 8em;
+}
+
+#tituloMain  {
+    position: absolute;
+    bottom: 10px;
+    left: 150px;
+}
+
+
+/*----------SECTION WELCOME----------*/
+
+#welcome {
+    position: relative;
+    top: 60.35em;
+    left: 0;
+    width: 100%;
+    height: 80em;
+}
+
+#raro {
+    position: relative;
+    width: 55em;
+    height: 30%;
+    top: 0em;
+    left: 8.07em;
+    border-top-style: solid;
+}
+
+.h3Thin {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 3.5em;
+}
+
+#h3Estudio {
+    position: absolute;
+    top: 0;
+    left: 140px;
+}
+
+#textoWelcome {
+    position: relative;
+    left: 0em;
+    top: 0em;
+    width: 100%;
+    height: 30%;;
+}
+
+.h1Fancy {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+    color: #787FA0;
+    font-size: 7em;
+}
+
+#h1Bienvenido {
+    position: absolute;
+    top: 2em;
+    right: 6em;
+}
+
+#h1Bienvenido::before {
+    content: "-";
+    font-size: 95px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color: black;
+    position: absolute;
+    left: -50px;
+    top: -20px;
+}
+
+p {
+    font-size: 1.6em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+} 
+
+#pWelcome {
+    position: absolute;
+    width: 30em;
+    height: 30%;
+    top: 17em;
+    right: 20vw;
+    line-height: 25px;
+}
+
+/*----------SECTION ABOUT US----------*/
+
+#aboutUs {
+    position: relative;
+    top: 60em;
+    left: 0;
+}
+
+#imgAboutUs {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(../img/BannerMain.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 400px;
+    min-width: 818px;
+}
+
+#textoAboutUs {
+    position: absolute;
+    top: 50em;
+    left: 20em;
+    width: 71%;
+}
+
+#h1AboutUs::before {
+    content: "-";
+    font-size: 95px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color: black;
+    position: absolute;
+    left: -50px;
+    top: -20px;
+}
+
+#pAboutUs {
+    position: absolute;
+    top: 7em;
+    right: 10vw;
+    width: 35em;
+    height: 30%;
+    line-height: 25px;
+}
+
+button {
+    background-color: #c1c5d6;
+    border: none;
+    color: black;
+    padding: 0.5em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.8em;
+    cursor: pointer;
+    border-radius: 0.5em;
+}
+
+
+#botonMain {
+    position: absolute;
+    top: 52em;
+    left: 46vw;
+}
+
+
+/*------------------------------FOOTER------------------------------*/
+footer {
+    position: relative;
+    background: #5a5b62;
+    width: 100%;
+    height: 250px;
+    top: 180em;
+    left: 0;      
+    font-family: 'Roboto Slab', serif;
+    color: #c1c5d6;
+}
+
+#tituloFooter {
+    position: absolute;
+    top: 1.5em;
+    left: 3.5em;
+    font-size: 1.6em;
+}
+
+.tituloMenuFooter {
+    font-weight: bold;
+}
+
+#menuMain {
+    position: absolute;
+    top: 0;
+    left: 20vw;
+    font-size: 1.6em;
+}
+
+#menuProyectos {
+    position: absolute;
+    top: 0;
+    left: 40vw;
+    font-size: 1.6em;
+}
+
+#menuContacto {
+    position: absolute;
+    top: 0;
+    left: 60vw;
+    font-size: 1.6em;
+}
+
+#menuMain *, #menuProyectos *, #menuContacto * {
+    display: list-item;
+    padding: 15px;
+    list-style: none;
+    text-decoration: none;
+    color: #c1c5d6;
+}
+
+#copyright {
+    position: absolute;
+    top: 1.7em;
+    right: 10vw;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6em;
+    font-weight: 400;
+}
+
+.rrss {
+    position: absolute;
+    top: 17em;
+    width: 10em;
+    height: 6em;
+}
+
+#instagram {
+    right: 19.5em;
+    background-image: url('../img/insta.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#facebook {
+    right: 13em;
+    background-image: url('../img/face.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#tumblr {
+    right: 6.5em;
+    background-image: url('../img/tumblr.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#twitter {
+    right: 0;
+    background-image: url('../img/twitter.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media screen and (max-width: 1366px) {
+    
+    #topMenu {
+        padding-top: 15px;
+    }
+
+    .topElement {
+        font-size: 3em;
+    }
+}
+
+@media screen and (max-width: 1132px) {
+
+    #tituloMain {
+        bottom: 0px;
+        left: 15px;
+    }
+
+    .h3Thin {
+        font-size: 3em;
+    }
+
+    #raro {
+        width: 49em;
+    }
+
+    #h1Bienvenido {
+        top: 2em;
+        left: 3em;
+    }
+
+    #welcome {
+        top: 0em;
+        left: 5em;
+    }
+
+    #pWelcome {
+        top: 15em;
+        left: 0vw;
+        /* font-size: 2em; */
+    }
+
+    #aboutUs {
+        top: 0em;
+    }
+
+    #textoAboutUs {
+        top: 25em;
+        left: 10em;
+    }
+
+    #pAboutUs {
+        left: 2vw;
+        /* font-size: 2em; */
+    }
+
+    #botonMain {
+        top: 40em;
+    }
+
+    footer {
+        top: 100em;
+    }
+
+    @media screen and (max-width: 960px) {
+
+        #tituloMain {
+            top: 8em;
+        }
+
+        #logo {
+            width: 80px;
+            height: 80px;
+        }
+
+        #topMenu{
+            top: 60vw;
+        }
+
+        #topMenu * {
+            display: block;
+        }
+
+        #raro {
+            position: absolute;
+            top: 72em;
+            width: 80vw;
+            margin: 10px;
+        }
+
+        footer {
+            top: 90em;
+            height: 400px;
+        }
+    
+        #menuMain {
+            top: 5em;
+            left: 2em;
+        }
+    
+        #menuProyectos {
+            top: 5em;
+            left: 33vw;
+        }
+    
+        #menuContacto {
+            top: 5em;
+            left: 66vw;
+        }
+    
+        .rrss {
+            top: 32em;
+        }
+    }
+
+    @media screen and (max-width: 696px) {
+        #h1Bienvenido {
+            text-align: center;
+            margin: 0 auto;
+            left: 0vw;
+        }
+
+        #pWelcome {
+            width: 80vw;
+            top: 20em;
+        }
+
+        #pAboutUs {
+            width: 80vw;
+            top: 15em;
+            left: -2em;
+        }
+
+        #botonMain {
+            top: 50em;
+            left: 36vw;
+        }
+
+        footer {
+            top: 120em;
+        }
+    }    
+    
+}

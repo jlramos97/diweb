@@ -1,0 +1,468 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,400,500|Roboto+Slab');
+/*font-family: 'Roboto Slab', serif;*/
+/*font-family: 'Montserrat', sans-serif;*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+header {
+    position: relative;
+    top: 1.5em;
+    left: 3.5em;
+    width: 100%;
+    height: 150px;
+}
+
+#logoFull {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 60%;
+    background-image: url(../img/logoFull.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#topMenu {
+    position: absolute;
+    top: 42px;
+    right: 100px;
+}
+
+li {
+    display: inline-block;
+}
+
+.topMenu2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 3.25em;
+    padding-right: 50px;
+    text-align: center;
+}
+
+.topMenu2 * {
+    text-decoration: none;
+    color: black;
+}
+
+.menuSelected {
+    text-decoration: line-through;
+}
+
+/*------------------------------BANNER------------------------------*/
+
+#fotoContacto {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    min-width: 818px;
+    background-image: url(../img/Contacto.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#mainContacto {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+.h1Fancy {
+    position: absolute;
+    top: 0.5em;
+    left: 15vw;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+    color: #787FA0;
+    font-size: 7em;
+    margin-bottom: 2.5vw;
+}
+
+.h1Fancy::before {
+    content: "-";
+    font-size: 95px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color: black;
+    position: absolute;
+    left: -50px;
+    top: -20px;
+}
+
+p {
+    position: absolute;
+    width: 45em;
+    top: 12em;
+    margin-top: 0.5vw;
+    left: 15vw;
+    font-size: 1.6em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+form {
+    position: relative;
+    top: 50em;
+    left: 15vw;
+}
+
+input, textarea {
+    font-size: 1.6em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    border-radius: 5px;
+    padding: 10px;
+    width: 300px;
+    resize: none;
+}
+
+#inputNombre {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#inputAsunto {
+    position: absolute;
+    top: 0;
+    left: 350px;
+}
+
+#inputEmail {
+    position: absolute;
+    top: 5em;
+    left: 0;
+}
+
+#inputTel {
+    position: absolute;
+    top: 10em;
+    left: 0;
+}
+
+#inputMensaje {
+    position: absolute;
+    top: 5em;
+    left: 350px;
+    height: 100px;
+}
+
+#inputEnviar {
+    position: absolute;
+    top: 15em;
+    left: 525px;
+    width: 120px;
+    background-color: #c1c5d6;
+    border-style: none;
+    font-weight: 500;
+}
+
+#flecha {
+    position: relative;
+    top: 35em;
+    left: 70em;
+    width: 600px;
+    height: 800px;
+    background-image: url('../img/flecha.svg');
+    background-repeat: no-repeat;
+}
+
+#informacionContacto {
+    position: relative;
+    top: -35em;
+    left: 110em;
+}
+
+#informacionContacto * {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.5em;
+    display: list-item;
+    list-style: none;
+    padding-top: 3em;
+}
+
+#telefono::before {
+    content: '';
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    background-image: url(../img/tlf.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-right: 25px;
+}
+
+
+#email::before {
+    content: '';
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    background-image: url(../img/mail.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-right: 25px;
+}
+
+#direccion::before {
+    content: '';
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    background-image: url(../img/ubi.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-right: 25px;
+}
+
+
+/*------------------------------FOOTER------------------------------*/
+footer {
+    position: relative;
+    background: #5a5b62;
+    width: 100%;
+    height: 250px;
+    top: 0em;
+    left: 0;      
+    font-family: 'Roboto Slab', serif;
+    color: #c1c5d6;
+}
+
+#tituloFooter {
+    position: absolute;
+    top: 1.5em;
+    left: 3.5em;
+    font-size: 1.6em;
+}
+
+.tituloMenuFooter {
+    font-weight: bold;
+}
+
+#menuMain {
+    position: absolute;
+    top: 0;
+    left: 20vw;
+    font-size: 1.6em;
+}
+
+#menuProyectos {
+    position: absolute;
+    top: 0;
+    left: 40vw;
+    font-size: 1.6em;
+}
+
+#menuContacto {
+    position: absolute;
+    top: 0;
+    left: 60vw;
+    font-size: 1.6em;
+}
+
+#menuMain *, #menuProyectos *, #menuContacto * {
+    display: list-item;
+    padding: 15px;
+    list-style: none;
+    text-decoration: none;
+    color: #c1c5d6;
+}
+
+#copyright {
+    position: absolute;
+    top: 1.7em;
+    right: 10vw;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6em;
+    font-weight: 400;
+}
+
+.rrss {
+    position: absolute;
+    top: 17em;
+    width: 10em;
+    height: 6em;
+}
+
+#instagram {
+    right: 19.5em;
+    background-image: url('../img/insta.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#facebook {
+    right: 13em;
+    background-image: url('../img/face.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#tumblr {
+    right: 6.5em;
+    background-image: url('../img/tumblr.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#twitter {
+    right: 0;
+    background-image: url('../img/twitter.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media screen and (max-width: 1420px) {
+
+    #topMenu {
+        position: relative;
+        top: 15em;
+        left: 0;
+        text-align: center;
+    }
+
+    #fotoContacto {
+        position: relative;
+        top: 10em;
+    }
+
+    #flecha {
+        visibility: hidden;
+    }
+
+    #informacionContacto {
+        position: relative;
+        top: -5em;
+        left: 15vw;
+    }
+
+    .h1Fancy {
+        position: absolute;
+        top: 0em;
+        left: 15vw;
+        font-family: 'Roboto Slab', serif;
+        font-weight: 100;
+        color: #787FA0;
+        font-size: 7em;
+        margin-bottom: 2.5vw;
+    }
+
+    p {
+       width: 40em; 
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .h1Fancy {
+        top: -2em;
+    }
+
+    p {
+        top: 5em;
+        width: 80vw;
+    }
+
+    #topMenu * {
+        display: list-item;
+        list-style-type: none;
+        text-align: left;
+    }
+
+    #topMenu {
+        top: 100px;
+    }
+}
+
+@media screen and (max-width: 818px) {
+
+    #contenedorForm {
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+
+    form {
+        padding: 0;
+        display: inline-block;
+        margin: 0 auto;
+        left: -16em;
+    }
+
+    #inputAsunto {
+        top: 17em;
+        left: 0;
+    }
+
+    #inputMensaje {
+        top: 22em;
+        left: 0;
+    }
+
+    #inputEnviar {
+        top: 32em;
+        left: 6em;
+    }
+
+    footer {
+        top: 40em;
+    }
+
+    #informacionContacto {
+        position: relative;
+        top: 30em;
+        left: 15vw;
+    }
+
+    footer {
+        height: 400px;
+    }
+
+    #menuMain {
+        top: 5em;
+        left: 2em;
+    }
+
+    #menuProyectos {
+        top: 5em;
+        left: 33vw;
+    }
+
+    #menuContacto {
+        top: 5em;
+        left: 66vw;
+    }
+
+    .rrss {
+        top: 32em;
+    }
+}
+
+@media screen and (max-width: 502px) {
+    .h1Fancy {
+        font-size: 5em;
+        line-height: 50px;
+    }
+
+    .h1Fancy::before {
+        top: -5px;
+    }
+
+    p {
+       top: 2em; 
+    }
+
+}

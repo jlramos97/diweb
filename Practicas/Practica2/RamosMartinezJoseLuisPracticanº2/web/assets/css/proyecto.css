@@ -1,0 +1,552 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,400,500|Roboto+Slab');
+/*font-family: 'Roboto Slab', serif;*/
+/*font-family: 'Montserrat', sans-serif;*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+/*----------HEADER----------*/
+
+header {
+    position: absolute;
+    top: 1.5em;
+    left: 3.5em;
+    width: 100%;
+    height: 150px;
+    z-index: 5;
+}
+
+#logoFull {
+    position: absolute;
+    top: 0em;
+    left: 0vw;
+    width: 250px;
+    height: 60%;
+    background-image: url(../img/logoFull.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#topMenu {
+    position: absolute;
+    top: 42px;
+    right: 100px;
+}
+
+li {
+    display: inline-block;
+}
+
+.topMenu2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 3.25em;
+    padding-right: 50px;
+    text-align: center;
+}
+
+.topMenu2 * {
+    text-decoration: none;
+    color: black;
+}
+
+.menuSelected {
+    text-decoration: line-through;
+}
+
+
+/*----------MAIN----------*/
+
+#fondo {
+    position: absolute;
+    width: 100%;
+    height: 80vw;
+    top: 0;
+    left: 0;
+    background-image: url('../img/proyectos.svg');
+    background-repeat: no-repeat;
+    background-position: -43vw center;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+#proyectos {
+    position: relative;
+    width: 100%;
+    height: 80em;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+}
+
+.h1Thin {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 9em;
+}
+
+#h1Proyectos {
+    position: absolute;
+    top: 5em;
+    left: 8em;
+}
+
+#lineProyectos {
+    position: absolute;
+    width: 50em;
+    height: 150px;
+    top: 42em;
+    left: 67em;
+    background-image: url('../img/linea.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p {
+    position: absolute;
+    top: 40em;
+    right: 10em;
+    width: 30em;
+    font-size: 1.8em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+    z-index: 10;
+} 
+
+#galeria {
+    position: relative;
+    top: -35em;
+    width: 100%;
+    height: 230em;
+    margin: 0 auto;
+}
+
+#h1Galeria {
+    position: absolute;
+    top: 15em;
+    left: 42vw;
+}
+
+#lineGaleria {
+    position: absolute;
+    width: 50em;
+    height: 150px;
+    top: 132em;
+    right: 45em;
+    background-image: url('../img/linea.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.foto {
+    width: 66%;
+}
+
+#foto1:hover::after{
+    background-image: url('../img/gal1hover.jpg');
+}
+
+#foto2:hover::after{
+    background-image: url('../img/gal2hover.jpg');
+}
+
+#foto3:hover::after{
+    background-image: url('../img/gal3hover.jpg');
+}
+
+#foto4:hover::after{
+    background-image: url('../img/gal4hover.jpg');
+}
+
+#foto5:hover::after{
+    background-image: url('../img/gal5hover.jpg');
+}
+
+#foto6:hover::after{
+    background-image: url('../img/gal6hover.jpg');
+}
+
+#foto7:hover::after{
+    background-image: url('../img/gal7hover.jpg');
+}
+
+#foto8:hover::after{
+    background-image: url('../img/gal8hover.jpg');
+}
+
+
+#fotos {
+    position: relative;
+    width: 50%;
+    top: 140em;
+    left: 0;
+    display: inline-block;
+    text-align: center;
+}
+
+#fotos2 {
+    position: absolute;
+    width: 50%;
+    top: 140em;
+    right: 0;
+    display: inline-block;
+    text-align: center;
+}
+
+.textoFoto {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2em;
+    position: relative;
+    top: 5em;
+    color: transparent;
+    /* visibility: hidden; */
+}
+
+#foto1, #foto3, #foto5, #foto7 {
+    margin-top: 12vw;
+    margin-left: 13vw;
+    
+}
+
+#foto2, #foto4, #foto6, #foto8 {
+    margin-top: 12vw;
+    margin-left: 5vw;
+} 
+
+#foto1::after {
+    content: "";
+    padding-bottom: 100%;
+    display: block;
+    background-image: url(../img/gal1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#foto2::after {
+    content: "";
+    padding-bottom: 100%;
+    display: block;
+    background-image: url(../img/gal2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+ #foto3::after {
+    content: "";
+    padding-bottom: 100%;
+    display: block;
+    background-image: url(../img/gal3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#foto4::after {
+    content: "";
+    padding-bottom: 100%;
+    display: block;
+    background-image: url(../img/gal4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#foto5::after {
+    content: "";
+    padding-bottom: 100%;
+    display: block;
+    background-image: url(../img/gal5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#foto6::after {
+    content: "";
+    padding-bottom: 100%;
+    display: block;
+    background-image: url(../img/gal6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#foto7::after {
+    content: "";
+    padding-bottom: 100%;
+    display: block;
+    background-image: url(../img/gal7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#foto8::after {
+    content: "";
+    padding-bottom: 100%;
+    display: block;
+    background-image: url(../img/gal8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*----------FOOTER----------*/
+
+footer {
+    position: relative;
+    background: #5a5b62;
+    width: 100%;
+    height: 250px;
+    top: 250em;
+    left: 0;      
+    font-family: 'Roboto Slab', serif;
+    color: #c1c5d6;
+}
+
+#tituloFooter {
+    position: absolute;
+    top: 1.5em;
+    left: 3.5em;
+    font-size: 1.6em;
+}
+
+.tituloMenuFooter {
+    font-weight: bold;
+}
+
+#menuMain {
+    position: absolute;
+    top: 0;
+    left: 20vw;
+    font-size: 1.6em;
+}
+
+#menuProyectos {
+    position: absolute;
+    top: 0;
+    left: 40vw;
+    font-size: 1.6em;
+}
+
+#menuContacto {
+    position: absolute;
+    top: 0;
+    left: 60vw;
+    font-size: 1.6em;
+}
+
+#menuMain *, #menuProyectos *, #menuContacto * {
+    display: list-item;
+    padding: 15px;
+    list-style: none;
+    text-decoration: none;
+    color: #c1c5d6;
+}
+
+#copyright {
+    position: absolute;
+    top: 1.7em;
+    right: 10vw;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6em;
+    font-weight: 400;
+}
+
+.rrss {
+    position: absolute;
+    top: 17em;
+    width: 10em;
+    height: 6em;
+}
+
+#instagram {
+    right: 19.5em;
+    background-image: url('../img/insta.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#facebook {
+    right: 13em;
+    background-image: url('../img/face.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#tumblr {
+    right: 6.5em;
+    background-image: url('../img/tumblr.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#twitter {
+    right: 0;
+    background-image: url('../img/twitter.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media screen and (max-width: 1278px) {
+    
+    #topMenu {
+        text-align: right;
+        right: 10px;
+    }
+
+    #topMenu * {
+        display: block;
+        text-align: right;
+    }
+
+    #h1Proyectos {
+        left: 5em;
+    }
+
+    #lineProyectos {
+        left: 39em;
+    }
+
+    p {
+        top: 60em;
+    }
+
+    footer {
+        top: 120em;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    #h1Proyectos {
+        left: 3em;
+    }
+
+    #lineProyectos {
+        left: 37em;
+    }
+
+    footer {
+        top: 80em;
+    }
+}
+
+@media screen and (max-width: 878px) {
+    #fondo {
+        visibility: hidden;
+    }
+
+    #h1Proyectos {
+        left: 1em;
+    }
+
+    #lineProyectos {
+        left: 15em;
+    }
+
+    p {
+        top: 40em;
+        left: 2em;
+    }
+
+    #galeria {
+        top: -80em;
+    }
+
+    #h1Galeria {
+        left: 1em;
+    }
+
+    #lineGaleria {
+        left: 15em;
+    }
+
+    #fotos, #fotos2 {
+        width: 100%;
+    }
+
+    #fotos {
+        margin-left: 4vw;
+    }
+
+    #fotos2 {
+        position: relative;
+        margin-left: 12vw;
+    }
+
+    #logoFull {
+        width: 200px;
+    }
+
+    #h1Proyectos {
+        font-size: 7em;
+        left: 0.2em;
+    }
+
+    #lineProyectos {
+        width: 380px;
+        left: 1em;
+        top: 33em;
+    }
+
+    p {
+        width: 80vw;
+        top: 30em;
+    }
+
+    #galeria {
+        top: -100em;
+    }
+
+    #h1Galeria {
+        font-size: 8em;
+        left: 0.2em;
+    }
+
+    #lineGaleria {
+        width: 380px;
+        left: 1em;
+        top: 119em;
+    }
+
+    footer {
+        top: 350em;
+        height: 400px;
+    }
+
+    #menuMain {
+        top: 5em;
+        left: 2em;
+    }
+
+    #menuProyectos {
+        top: 5em;
+        left: 33vw;
+    }
+
+    #menuContacto {
+        top: 5em;
+        left: 66vw;
+    }
+
+    .rrss {
+        top: 32em;
+    }
+}
+
+
+@media screen and (max-width: 666px) {
+    footer {
+        top: 250em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    footer {
+        top: 150em;
+    }
+}
