@@ -209,6 +209,16 @@ footer {
     top: 320em;
 }
 
+/************************************************************************
+*************************************************************************
+*************************************************************************
+*************************************************************************
+---------------------------------MAIN------------------------------------
+*************************************************************************
+*************************************************************************
+*************************************************************************
+************************************************************************/
+
 /*SECCION MAIN*/
 #mainInicio {
     position: relative;
@@ -307,7 +317,6 @@ video {
 
     margin: 20px 100px;
     padding: 20px;
-    background: rgba(255, 255, 255, 0.3);
     text-align: center;
 }
 
@@ -381,4 +390,131 @@ video {
     margin-top: 3em;
 }
 
+/************************************************************************
+*************************************************************************
+*************************************************************************
+*************************************************************************
+---------------------------------ABOUT US--------------------------------
+*************************************************************************
+*************************************************************************
+*************************************************************************
+************************************************************************/
 
+/*SECCION MAIN ABOUT US*/
+#auInicio {
+    height: 100vh;
+    background-image: url('../img/bgAboutUs.jpg');
+}
+
+#h1AUMain {
+    font-size: 9em;
+    padding-top: 2em;
+    padding-left: 11em;
+    width: 45%;
+    animation-name: topFadeIn;
+    animation-duration: 2s;
+}
+
+#orange {
+    color: #DD6E42;
+
+    animation-name: fadeIn;
+    animation-duration: 2s;
+}
+
+/*SECCION TEAM ABOUT US*/
+
+#auTeam {
+    padding-top: 20em;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+#spanAuInfo {
+    width: 30%;
+    text-align: center;
+}
+
+#fotos {
+    padding-top: 10em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.fotoTeam {
+    flex: 1 0 300px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    
+    margin: 20px 70px;
+    padding: 20px;
+    text-align: center;
+}
+
+#fotoTeam1 {
+    height: 700px;
+    min-width: 200px;
+    background-image: url('../img/team1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#fotoTeam2 {
+    height: 700px;
+    min-width: 200px;
+    background-image: url('../img/team2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#fotoTeam3 {
+    height: 700px;
+    min-width: 200px;
+    background-image: url('../img/team3.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+
+/*SECCION ALPINISMO ABOUT US*/
+
+#auAlpinismo {
+    padding-top: 10em;
+    padding-left: 30em;
+}
+
+#h1AuAlpinismo {
+    color: #280003;
+    font-size: 9em;
+    width: 40%;
+}
+
+#parrafoAu1 {
+    padding-top: 5em;
+    width:  70%;
+    padding-left: 5em;
+}
+
+#auFormarse {
+    padding-top: 20em;   
+}
+
+#h1AuFormarse {
+    color: #280003;
+    font-size: 9em;
+    width: 70%;
+    padding-left: 8em;
+}
+
+#parrafoAu2 {
+    padding-top: 5em;
+    padding-left: 30em;
+    width: 45%;
+}
