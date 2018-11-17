@@ -1,14 +1,70 @@
-/*CSS*/
-
-/*
-ANIMACIONES PARA METER:
-
-LA FLECHA DE IZQUIERDA A DERECHA
-LOS 3 ELEMENTOS APARECEN
-QUIZÁS EL "YA"
-*/
-
+/*FUENTES*/
 @import url('https://fonts.googleapis.com/css?family=Bree+Serif|Montserrat|Montserrat:500');
+/*ANIMACIONES*/
+
+@keyframes topFadeIn {
+  0% {
+    top: 3em;
+    opacity: 0;
+  }
+
+  100% {
+    top: 4em;
+    opacity: 1;
+  }
+}
+
+@keyframes botFadeIn {
+    0% {
+      top: 25em;
+      opacity: 0;
+    }
+  
+    100% {
+      top: 23em;
+      opacity: 1;
+    }
+  }
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+  
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+@keyframes animFlecha {
+    0% {
+        left: -30em;
+        opacity: 0;
+    }
+  
+    50% {
+        opacity: 0.25;
+    }
+
+    100% {
+      left: 42em;
+      opacity: 1;
+    }
+}
+
+@keyframes menuHover {
+    0% {
+        font-size: 3em;
+    }
+  
+    100% {
+      font-size: 3.1em;
+    }
+}
 
 /*COMUN, CLASES*/
 * {
@@ -33,10 +89,11 @@ html, body {
 a {
     text-decoration: none;
     color: #c6d2ed;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .linkBold {
-    font-size: 3.3em;
+    font-size: 2em;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
 }
@@ -101,7 +158,7 @@ header, nav {
 header {
     position: absolute;
     font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
+    font-weight: 500;
     z-index: 7;
 }
 
@@ -128,11 +185,16 @@ header #headerUl {
     list-style-type: none;
 }
 
-.headerElement {
-    display: inline-block;
+#headerUl li {
+    display: inline;
     color: #c6d2ed;
     font-size: 3em;
     padding-right: 7vw;
+}
+
+.headerElement:hover {
+    color: #696D7D;
+    transform: scale(0.7);
 }
 
 /*FOOTER ---------------------------------------------------------------COMUN*/
@@ -170,8 +232,16 @@ video {
     top: 4em;
     left: 2.8em;
 
+    animation-name: topFadeIn;
+    animation-duration: 2s;
+
     width: 800px;
     line-height: 1.25;
+}
+
+.lateFade {
+    animation-name: fadeIn;
+    animation-duration: 2.5s;
 }
 
 .arrow {
@@ -180,7 +250,11 @@ video {
     position: absolute;
     top: 52em;
     left: 42em;
-    
+
+    animation-name: animFlecha;
+    animation-duration: 1s;
+
+
     width: 550px;
     height: 300px;
 
@@ -188,12 +262,17 @@ video {
     background-repeat: no-repeat;
 }
 
+
+
 #h4MainMain {
     z-index: 7;
 
     position: absolute;
     top: 23em;
     left: 23em;
+
+    animation-name: botFadeIn;
+    animation-duration: 2s;
 }
 
 /*SECCION*/
@@ -293,8 +372,13 @@ video {
 }
 
 #parrafoMain {
-    width: 70%;
-    padding-left: 15%;
+    width: 50%;
+    padding-left: 22%;
+    margin-top: 5em;
+}
+
+#linkMainEscalada {
+    margin-top: 3em;
 }
 
 
