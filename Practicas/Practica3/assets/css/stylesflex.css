@@ -502,6 +502,8 @@ video {
     padding-left: 5em;
 }
 
+/*SECCION FORMARSE EN MNCLUB*/
+
 #auFormarse {
     padding-top: 20em;   
 }
@@ -517,4 +519,9 @@ video {
     padding-top: 5em;
     padding-left: 30em;
     width: 45%;
+}
+
+iframe {
+    margin-top: 15em;
+    margin-left:80em; 
 }
