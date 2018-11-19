@@ -4,6 +4,16 @@
     height: 200px;
 }
 
+@keyframes girar {
+    0% {
+        transform: rotateX(0deg) rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateX(359deg) rotateY(359deg);
+    }
+}
+
 #superior {
     background-color: rgba(255, 165, 0, 0.83);
 }
@@ -42,6 +52,10 @@
     transform-style: preserve-3d;
     transform: perspective(1000px)
     rotateX(-30deg) rotateY(-30deg);
+}
+
+.cubo {
+    animation: girar 3s infinite linear;
 }
 
 #derecha {

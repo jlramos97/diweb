@@ -86,6 +86,10 @@ html, body {
     width: 100%;
 }
 
+.dark {
+    color: #280003;
+}
+
 a {
     text-decoration: none;
     color: #c6d2ed;
@@ -552,5 +556,24 @@ iframe {
 #h1CnInicio {
     color: #280003;
     padding-top: 2.5em;
-    padding-left: 1.2em;
+    padding-left: 1.5em;
+    font-size: 9em;
+}
+
+#h1CnInicio2 {
+    color:#28000386;
+    padding-top: 6em;
+    font-size: 9em;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+}
+
+#logoDark {
+    position: absolute;
+    width: 200px;
+    height: 100%;
+    top: 3em;
+    left: 5em;
+    background-image: url('../img/logoDark.svg');
+    background-repeat: no-repeat;
 }
