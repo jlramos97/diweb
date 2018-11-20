@@ -197,6 +197,7 @@ nav {
     background-repeat: no-repeat;
 }
 
+
 header #headerUl {
     position: absolute;
     right: 0;
@@ -211,9 +212,38 @@ header #headerUl {
     padding-right: 7vw;
 }
 
+.menuIcon  {
+    display: none;
+    padding: 0;
+}
+
+#menuIcon1 {
+    background-image: url("../img/icono1Naranja.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#menuIcon2 {
+    background-image: url("../img/icono2Naranja.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#menuIcon3 {
+    background-image: url("../img/icono3Naranja.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 .headerElement:hover {
     color: #696D7D;
     transform: scale(0.7);
+}
+
+@media screen and (max-width: 1260px) {
+    #headerElement1 {
+        display: none;
+    }
 }
 
 /*FOOTER ---------------------------------------------------------------COMUN*/
@@ -428,7 +458,7 @@ video {
 #h1AUMain {
     font-size: 9em;
     padding-top: 2em;
-    padding-left: 11em;
+    padding-left: 52%;
     width: 45%;
     animation-name: topFadeIn;
     animation-duration: 2s;
@@ -530,8 +560,8 @@ video {
 #h1AuFormarse {
     color: #280003;
     font-size: 9em;
-    width: 70%;
-    padding-left: 8em;
+    width: 45%;
+    padding-left: 40%;
 }
 
 #parrafoAu2 {
@@ -545,6 +575,27 @@ iframe {
     margin-left:80em; 
 }
 
+@media screen and (max-width: 1260px) {
+    #h1AuAlpinismo {
+        width: 70%;
+    }
+
+    #h1AuFormarse {
+        width: 70%;
+        padding-left: 20%;
+    }
+
+    #parrafoAu2 {
+        padding-left: 20%;
+    }
+
+    iframe {
+        margin-left: 20%;
+    }
+
+}
+
+
 /************************************************************************
 *************************************************************************
 *************************************************************************
@@ -554,7 +605,6 @@ iframe {
 *************************************************************************
 *************************************************************************
 ************************************************************************/
-
 #cnInicio {
     width: 100%;
     /* height: 180em; */
@@ -604,7 +654,6 @@ form {
 }
 
 .columna {
-
     flex: 1 1 200px;
 
     display: flex;
@@ -625,4 +674,10 @@ form * {
     height: 350px;
     background-color:#280003;
     top: 350em;
+}
+
+@media screen and (max-width: 1260px) {
+    form {
+        padding-left: 0;
+    }
 }
