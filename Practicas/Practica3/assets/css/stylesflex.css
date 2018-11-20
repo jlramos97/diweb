@@ -250,8 +250,75 @@ header #headerUl {
 
 footer {
     margin-top: 10em;
-    height: 350px;
+    height: 550px;
     background-color: #696D7D;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6em;
+    color: white;
+
+}
+
+#ulFooter {
+    width: 100%;
+}
+
+.columnFooter li {
+    list-style-type: none;
+    padding-bottom: 1em;
+}
+
+.h4Fat {
+    padding-left: 12%;
+    padding-top: 5em;
+}
+
+#ulFooter {
+    padding-left: 12%;
+}
+
+.columnFooter {
+    padding-top: 5em;
+    width: 10%;
+    display: inline-block;
+    margin-right: 5em;
+}
+
+#RRSS {
+    position: relative;
+    height: 100px;
+    width: 100%;
+    background-color: #280003;
+    bottom: -5em;
+    display: flex;
+}
+
+.socialMedia {
+    width: 33.33333333%;
+}
+
+#twitter {
+    background-color: #1DA1F2;
+    background-image: url('../img/twitter.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 350px;
+}
+
+#facebook {
+    background-color: #4267B2;
+    background-image: url('../img/facebook.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 350px;
+}
+
+#instagram {
+    background-color: #8F37A5;
+    background-image: url('../img/instagram.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 350px;
 }
 
 #footerMain {
@@ -288,7 +355,7 @@ video {
     z-index: 7;
 
     position: absolute;
-    top: 3em;
+    top: 4em;
     left: 2.8em;
 
     animation-name: topFadeIn;
@@ -444,6 +511,7 @@ video {
         left: 30%;
         font-size: 8em;
         width: 90%;
+        top: 3em;
     }
 
     .arrow {
@@ -742,8 +810,9 @@ form * {
 
 #footerDark {
     margin-top: 0em;
-    height: 350px;
-    background-color:#280003;
+    height: 450px;
+    padding-bottom: 6em;
+    background-color:#1a0002;
     top: 350em;
 }
 
