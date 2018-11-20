@@ -453,6 +453,7 @@ video {
 #auInicio {
     height: 100vh;
     background-image: url('../img/bgAboutUs.jpg');
+    background-position: center;
 }
 
 #h1AUMain {
@@ -471,6 +472,14 @@ video {
     animation-duration: 2s;
 }
 
+@media screen and (max-width: 1000px) {
+    #h1AUMain {
+        font-size: 8em;
+        padding-left: 7%;
+    }
+}
+
+
 /*SECCION TEAM ABOUT US*/
 
 #auTeam {
@@ -478,6 +487,10 @@ video {
     flex-direction: column; 
     justify-content: center;
     align-items: center;
+}
+
+#h1AUTeam {
+    text-align: center;
 }
 
 #spanAuInfo {
@@ -497,7 +510,7 @@ video {
     flex: 1 0 300px;
     display: flex;
     flex-direction: column;
-    width: 500px;
+    width: 400px;
     
     margin: 20px 70px;
     padding: 20px;
@@ -531,6 +544,15 @@ video {
     background-position: center;
 }
 
+@media screen and (max-width: 650px) {
+    #h1AUTeam {
+        font-size: 7em;   
+    }
+
+    #spanAuInfo {
+        width: 80%;
+    }
+}
 
 /*SECCION ALPINISMO ABOUT US*/
 
@@ -549,6 +571,19 @@ video {
     padding-top: 5em;
     width:  70%;
     padding-left: 5em;
+}
+
+@media screen and (max-width: 1000px) {
+
+    #auAlpinismo {
+        padding-left: 0;
+    }
+
+    #h1AuAlpinismo {
+        font-size: 8em;   
+        width: 80%;
+        padding-left: 12%;
+    }
 }
 
 /*SECCION FORMARSE EN MNCLUB*/
@@ -582,19 +617,28 @@ iframe {
 
     #h1AuFormarse {
         width: 70%;
-        padding-left: 20%;
+        padding-left: 10%;
+        font-size: 8em;
     }
 
     #parrafoAu2 {
         padding-left: 20%;
+        width: 80%;
     }
 
     iframe {
         margin-left: 20%;
+        width: 500px;
+        height: 300px;
     }
-
 }
 
+@media screen and (max-width: 560px) {
+    iframe {
+        margin-left: 10%;
+        width: 80%;
+    }
+}
 
 /************************************************************************
 *************************************************************************
