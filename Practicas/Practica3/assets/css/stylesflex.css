@@ -155,7 +155,8 @@ a {
 input, textarea {
     font-size: 2em;
     font-family: 'Montserrat', sans-serif;
-    border-color: #280003;
+    /* border-color:  */
+    border: solid #280003 1px;
     padding-left: 10px;
 }
 
@@ -217,33 +218,32 @@ header #headerUl {
     padding: 0;
 }
 
-#menuIcon1 {
-    background-image: url("../img/icono1Naranja.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-#menuIcon2 {
-    background-image: url("../img/icono2Naranja.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-#menuIcon3 {
-    background-image: url("../img/icono3Naranja.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
 .headerElement:hover {
     color: #696D7D;
     transform: scale(0.7);
+}
+
+.headerButton {
+    display: none;
+    padding-right: 0;
 }
 
 @media screen and (max-width: 1260px) {
     #headerElement1 {
         display: none;
     }
+}
+
+@media screen and (max-width: 1000px) {
+    .headerElement {
+        display: none;
+    }
+
+    .headerButton {
+        display: inline-block;
+        padding-top: 1.4em;
+    }
+
 }
 
 /*FOOTER ---------------------------------------------------------------COMUN*/
@@ -678,6 +678,12 @@ form * {
 
 @media screen and (max-width: 1260px) {
     form {
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #h1CnInicio {
         padding-left: 0;
     }
 }
