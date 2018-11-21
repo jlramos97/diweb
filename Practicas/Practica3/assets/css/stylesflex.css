@@ -703,6 +703,7 @@ video {
 iframe {
     margin-top: 15em;
     margin-left:80em; 
+    /* width: 100%; */
 }
 
 @media screen and (max-width: 1260px) {
@@ -827,3 +828,97 @@ form * {
         padding-left: 0;
     }
 }
+
+/************************************************************************
+*************************************************************************
+*************************************************************************
+*************************************************************************
+---------------------------------CONTACTO--------------------------------
+*************************************************************************
+*************************************************************************
+*************************************************************************
+************************************************************************/
+
+#bodyRutas {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/pattern.svg);
+    background-size: contain;
+}
+
+#mainRutas {
+    padding-top: 30em;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+#h1MainRutas {
+    font-size: 10em; 
+}
+
+#parrafoMainRutas {
+    padding-top: 5em;
+    width: 60%;
+    text-align: justify;
+}
+
+#rutasRutas {
+    padding-top: 20em;
+
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.fichaRuta {
+    flex: 1 0 300px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 600px;;
+
+    background-color: #c6d2ed96;
+    border-radius: 5%;
+    
+    margin: 20px 70px;
+    padding: 20px;
+    text-align: center;
+}
+
+#fotoRuta1 {
+    height: 320px;
+    width: 100%;
+    background-image: url(../img/r1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+}
+
+#fotoRuta2 {
+    height: 320px;
+    width: 100%;
+    background-image: url(../img/r2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+}
+
+#fotoRuta3 {
+    height: 320px;
+    width: 100%;
+    background-image: url(../img/r3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+}
+
+#fotoRuta4 {
+    height: 320px;
+    width: 100%;
+    background-image: url(../img/r4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+}
+
