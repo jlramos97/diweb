@@ -950,4 +950,19 @@ form * {
     padding-bottom: 1em;
 }
 
+.dificil {
+    font-weight: bold;
+    color: rgb(192, 43, 43);
+}
+
+.media {
+    font-weight: bold;
+    color: orangered;
+}
+
+.facil {
+    font-weight: bold;
+    color: green;
+}
+
 
