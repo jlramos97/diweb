@@ -239,9 +239,13 @@ header #headerUl {
         display: none;
     }
 
+    #headerUl {
+        padding-right: 8%;
+    }
+
     .headerButton {
         display: inline-block;
-        padding-top: 1.4em;
+        padding-top: 2em;
     }
 
 }
@@ -549,6 +553,7 @@ video {
     height: 100vh;
     background-image: url('../img/bgAboutUs.jpg');
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 #h1AUMain {
@@ -921,4 +926,28 @@ form * {
     background-repeat: no-repeat;
     border-radius: 5%;
 }
+
+#fotoRuta5 {
+    height: 320px;
+    width: 100%;
+    background-image: url(../img/r5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+}
+
+#fotoRuta6 {
+    height: 320px;
+    width: 100%;
+    background-image: url(../img/r6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+}
+
+#h4Ruta1, #h4Ruta2, #h4Ruta3, #h4Ruta4, #h4Ruta5, #h4Ruta6  {
+    color: black;
+    padding-bottom: 1em;
+}
+
 
