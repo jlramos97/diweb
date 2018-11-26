@@ -6,3 +6,9 @@
 ### Contact -> Dar contacto e info de oficina de turismo
 
 ```Soy la oficina de turismo oficial de Suiza```
+
+
+
+## Rutas 
+
+- Coche, tren
