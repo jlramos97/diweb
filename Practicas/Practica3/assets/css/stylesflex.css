@@ -190,11 +190,11 @@ nav {
 
 #logo {
     position: absolute;
-    width: 200px;
-    height: 100%;
-    top: 3em;
+    width: 253px;
+    height: 318px;
+    top: -3em;
     left: 5em;
-    background-image: url('../img/logoNaranja.svg');
+    background-image: url(../img/logo.svg);
     background-repeat: no-repeat;
 }
 
